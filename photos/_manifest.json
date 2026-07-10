@@ -1,0 +1,242 @@
+{
+ "BruhbruhbruhWHO": {
+  "name": "BruhbruhbruhWHO",
+  "code": "ca",
+  "region": "AMER",
+  "photo": "BruhbruhbruhWHO.jpg"
+ },
+ "Dankmemes01": {
+  "name": "Dankmemes01",
+  "code": "us",
+  "region": "AMER",
+  "photo": null
+ },
+ "Darth_Nub": {
+  "name": "Darth Nub",
+  "code": "us",
+  "region": "AMER",
+  "photo": "Darth_Nub.jpg"
+ },
+ "Dishsoap": {
+  "name": "Dishsoap",
+  "code": "us",
+  "region": "AMER",
+  "photo": "Dishsoap.jpg"
+ },
+ "k0nda1": {
+  "name": "k0nda1",
+  "code": "br",
+  "region": "AMER",
+  "photo": null
+ },
+ "k3soju": {
+  "name": "k3soju",
+  "code": "us",
+  "region": "AMER",
+  "photo": "k3soju.jpg"
+ },
+ "Kaiweng": {
+  "name": "Kaiweng",
+  "code": "us",
+  "region": "AMER",
+  "photo": "Kaiweng.jpg"
+ },
+ "Upsetmax": {
+  "name": "Upsetmax",
+  "code": "ca",
+  "region": "AMER",
+  "photo": "Upsetmax.jpg"
+ },
+ "VCLF": {
+  "name": "VCLF",
+  "code": "br",
+  "region": "AMER",
+  "photo": "VCLF.jpg"
+ },
+ "Bensac": {
+  "name": "Bensac",
+  "code": "fr",
+  "region": "EMEA",
+  "photo": null
+ },
+ "Guillosko": {
+  "name": "Guillosko",
+  "code": "es",
+  "region": "EMEA",
+  "photo": null
+ },
+ "HoroX": {
+  "name": "HoroX",
+  "code": "cn",
+  "region": "EMEA",
+  "photo": "HoroX.jpg"
+ },
+ "Hypno": {
+  "name": "Hypno",
+  "code": "fr",
+  "region": "EMEA",
+  "photo": null
+ },
+ "Jedusor": {
+  "name": "Jedusor",
+  "code": "fr",
+  "region": "EMEA",
+  "photo": "Jedusor.jpg"
+ },
+ "PeepoGlad": {
+  "name": "PeepoGlad",
+  "code": "pl",
+  "region": "EMEA",
+  "photo": null
+ },
+ "Safo20": {
+  "name": "Safo20",
+  "code": "es",
+  "region": "EMEA",
+  "photo": null
+ },
+ "Tarteman": {
+  "name": "Tarteman",
+  "code": "fr",
+  "region": "EMEA",
+  "photo": "Tarteman.jpg"
+ },
+ "ZyK0o": {
+  "name": "ZyK0o",
+  "code": "fr",
+  "region": "EMEA",
+  "photo": "ZyK0o.jpg"
+ },
+ "A_Long": {
+  "name": "A Long",
+  "code": "vn",
+  "region": "APAC",
+  "photo": null
+ },
+ "AQ1H": {
+  "name": "AQ1H",
+  "code": "hk",
+  "region": "APAC",
+  "photo": "AQ1H.jpg"
+ },
+ "Iron_Bog": {
+  "name": "Iron Bog",
+  "code": "hk",
+  "region": "APAC",
+  "photo": "Iron_Bog.jpg"
+ },
+ "Maris": {
+  "name": "Maris",
+  "code": "vn",
+  "region": "APAC",
+  "photo": null
+ },
+ "Milo": {
+  "name": "Milo",
+  "code": "vn",
+  "region": "APAC",
+  "photo": null
+ },
+ "seoill": {
+  "name": "seoill",
+  "code": "kr",
+  "region": "APAC",
+  "photo": null
+ },
+ "steelo_of_bora": {
+  "name": "steelo of bora",
+  "code": "kr",
+  "region": "APAC",
+  "photo": null
+ },
+ "steppy": {
+  "name": "steppy",
+  "code": "sg",
+  "region": "APAC",
+  "photo": null
+ },
+ "title": {
+  "name": "title",
+  "code": "jp",
+  "region": "APAC",
+  "photo": "title.jpg"
+ },
+ "YBY1": {
+  "name": "YBY1",
+  "code": "vn",
+  "region": "APAC",
+  "photo": "YBY1.jpg"
+ },
+ "diaomei": {
+  "name": "diaomei",
+  "code": "cn",
+  "region": "CN",
+  "photo": null
+ },
+ "Huanmie": {
+  "name": "Huanmie",
+  "code": "cn",
+  "region": "CN",
+  "photo": "Huanmie.jpg"
+ },
+ "huanyi": {
+  "name": "huanyi",
+  "code": "cn",
+  "region": "CN",
+  "photo": null
+ },
+ "jiejie": {
+  "name": "jiejie",
+  "code": "cn",
+  "region": "CN",
+  "photo": null
+ },
+ "LiShao": {
+  "name": "LiShao",
+  "code": "cn",
+  "region": "CN",
+  "photo": "LiShao.jpg"
+ },
+ "LiTuChuan": {
+  "name": "LiTuChuan",
+  "code": "cn",
+  "region": "CN",
+  "photo": "LiTuChuan.jpg"
+ },
+ "QituX": {
+  "name": "QituX",
+  "code": "cn",
+  "region": "CN",
+  "photo": "QituX.jpg"
+ },
+ "Ringo": {
+  "name": "Ringo",
+  "code": "cn",
+  "region": "CN",
+  "photo": "Ringo.jpg"
+ },
+ "suirenka": {
+  "name": "suirenka",
+  "code": "cn",
+  "region": "CN",
+  "photo": null
+ },
+ "TianLong": {
+  "name": "TianLong",
+  "code": "cn",
+  "region": "CN",
+  "photo": "TianLong.jpg"
+ },
+ "XiaoGe": {
+  "name": "XiaoGe",
+  "code": "cn",
+  "region": "CN",
+  "photo": "XiaoGe.jpg"
+ },
+ "XZZ": {
+  "name": "XZZ",
+  "code": "cn",
+  "region": "CN",
+  "photo": "XZZ.jpg"
+ }
+}
