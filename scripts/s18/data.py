@@ -56,7 +56,7 @@ for key,disp,team,reg,iso,cn in R:
     gid=p.get('id'),names=p.get('names_seen'),
     s18ev=[dict(name=x['name'],short=x['short'],place=x['place'],n=x['n'],date=x['date'],end=tours.get(x['id'],{}).get('date_end')) for x in s18 if x['tier']=='1']))
 # ranks among 40
-for k,rev in [('avp',False),('top4',True),('win',True)]:
+for k,rev in [('avp',False),('top4',True),('win',True),('eighth',False)]:  # eighth: lower is better
   vals=sorted([o['s18'][k] for o in out if o['s18']],reverse=rev)
   for o in out: o['s18']['r_'+k]=vals.index(o['s18'][k])+1
 json.dump(out,open(sys.argv[2],'w'),ensure_ascii=False)

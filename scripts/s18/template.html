@@ -337,7 +337,6 @@ h1{display:flex;align-items:baseline;gap:calc(12 * var(--fs));margin-top:calc(6 
   background:linear-gradient(100deg,rgba(205,226,255,.12),rgba(255,255,255,.02));box-shadow:inset 0 0 0 1px rgba(205,226,255,.3);position:relative;overflow:hidden}
 .debut .dw{font:900 calc(22 * var(--fs))/1 var(--fx);font-stretch:75%;letter-spacing:.12em;background:var(--holo);background-size:200% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:holoText 6s linear infinite}
 .debut .dt{font:400 calc(15 * var(--fs))/1.1 var(--zh);letter-spacing:.08em;color:#fff}
-.debut .dd{font:400 calc(11 * var(--fs))/1.2 var(--zh);color:var(--dim);margin-left:auto;text-align:right}
 .rows{display:flex;flex-direction:column;gap:calc(3 * var(--fs))}
 .row{height:calc(25 * var(--fs));display:flex;align-items:center;justify-content:space-between;gap:10px;padding:0 calc(10 * var(--fs));border-radius:calc(7 * var(--fs));
   background:rgba(255,255,255,.03);box-shadow:inset 0 0 0 1px var(--line)}
@@ -658,24 +657,21 @@ function select(id,quiet){
     const cell=(lb,val,rk)=>`<div class="st ${rk<=5?"lead":""}"><div class="lb">${lb}</div><div class="v">${val}</div><div class="rk"><em>40人中 第</em> <b>${rk}</b></div><div class="bar"><i style="width:${Math.round((41-rk)/40*100)}%"></i></div></div>`;
     h+=`<section class="sec"><div class="sec-h"><h3>S18 本赛季</h3><span>${p.q?`晋级 <b class="q">${esc(p.q)}</b> · `:""}${s.gp} 局</span></div><div class="stats">
       ${cell("平均名次",s.avp.toFixed(2),s.r_avp)}${cell("前四率",pct(s.top4),s.r_top4)}${cell("吃鸡率",pct(s.win),s.r_win)}
-      <div class="st"><div class="lb">垫底率</div><div class="v">${pct(s.eighth)}</div><div class="rk"><em>第 8 名占比</em></div></div></div></section>`;
+      ${cell("垫底率",pct(s.eighth),s.r_eighth)}</div></section>`;
   }
   const W=p.w;
   if(W.length){
-    const champs=W.filter(x=>x[1]===1).length,best=Math.min(...W.map(x=>x[1]));
-    const bestTxt=champs>1?`冠军 ×${champs}`:(ordZh(best)||"第 "+best+" 名");
-    h+=`<section class="sec"><div class="sec-h"><h3>世界赛履历</h3><span>第 <b>${W.length+1}</b> 次出战 · 此前 <b>${W.length}</b> 届 · 最佳 <b>${bestTxt}</b></span></div>
+    h+=`<section class="sec"><div class="sec-h"><h3>世界赛履历</h3></div>
       <div class="wrow" style="--wn:${Math.max(7,W.length)}">${W.map((x,i)=>`<div class="wc ${x[1]===1?"champ":x[1]<=8?"t8":""}" style="animation-delay:${120+i*45}ms"><span class="s">S${x[0]}</span><span class="p">${x[1]===1?CROWN+"冠军":"#"+x[1]}</span></div>`).join("")}</div></section>`;
   } else {
-    h+=`<section class="sec"><div class="sec-h"><h3>世界赛履历</h3><span>Championship / Tactician's Crown</span></div>
-      <div class="debut"><span class="dw">DEBUT</span><span class="dt">首次登上世界赛</span><span class="dd">此前从未进入过<br>世界赛</span></div></section>`;
+    h+=`<section class="sec"><div class="sec-h"><h3>世界赛履历</h3></div>
+      <div class="debut"><span class="dw">DEBUT</span><span class="dt">首次登上世界赛</span></div></section>`;
   }
   // S18 大赛战绩：本赛季参加的 S 级 / A 级比赛，按时间
   const EV=p.ev||[];
   if(EV.length){
-    const nS=EV.filter(x=>x[4]==="S").length,nA=EV.length-nS;
     const plc=v=>{const z=typeof v==="number"?ordZh(v):null;return z?{t:z,zh:1,c:v===1?"g":"w"}:{t:"#"+v,c:""};};
-    h+=`<section class="sec"><div class="sec-h"><h3>S18 大赛战绩</h3><span>${[nS?`S 级 <b>${nS}</b> 场`:"",nA?`A 级 <b>${nA}</b> 场`:""].filter(Boolean).join(" · ")} · 按时间</span></div><div class="evs">${EV.map((x,i)=>{const q=plc(x[2]);
+    h+=`<section class="sec"><div class="sec-h"><h3>S18 大赛战绩</h3></div><div class="evs">${EV.map((x,i)=>{const q=plc(x[2]);
       return `<div class="evr ${x[4]==="S"?"is-s":""}" style="animation-delay:${140+i*50}ms"><span class="d">${esc(x[0])}</span><span class="lv lv-${x[4]==="S"?"s":"a"}">${esc(x[4])}</span><span class="e">${esc(x[1])}</span><span class="pp ${q.zh?"zh":""} ${q.c}">${esc(q.t)}</span><span class="of">/${esc(x[3])}</span></div>`;}).join("")}</div></section>`;
   }
   // 生涯：GanglyStats 只收 Set 11 起的赛区赛事 + 历届世界赛；奖金来自 Liquipedia；宿敌没有就整行不出
