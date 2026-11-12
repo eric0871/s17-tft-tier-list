@@ -691,7 +691,7 @@ function select(id,quiet){
     const face=(q,cls,avg)=>`<div class="rv-p ${cls}" ${q&&q.id!==p.id?`data-goto="${esc(q.id)}"`:""}><div class="rv-av">${miniArt(q)}</div><b class="${(q?q.n:R[0]).length>10?"long":""}">${esc(q?q.n:R[0])}</b>${hasAvg?`<span class="rv-avp">同桌均名 <i>${avg.toFixed(2)}</i></span>`:""}</div>`;
     h+=`<section class="rv"><div class="rv-h"><span class="rv-k">宿敌</span><span class="rv-e">RIVAL</span></div>
       <div class="rv-body">${face(p,"me",hasAvg?R[3]:0)}<div class="rv-mid"><div class="rv-n">同桌<i>${R[1]}</i>次</div>
-        <div class="rv-bar"><i style="width:${share}%"></i></div><div class="rv-w"><span>压过他 <i>${R[2]}</i> 次</span><span>被他压 <i>${R[1]-R[2]}</i> 次</span></div>
+        <div class="rv-bar"><i style="width:${share}%"></i></div><div class="rv-w"><span>赢 <i>${R[2]}</i> 次</span><span>输 <i>${R[1]-R[2]}</i> 次</span></div>
         ${hasAvg?`<div class="rv-d">${Math.abs(diff)<0.005?"同桌平均名次 <b>持平</b>":`同桌平均名次${diff>0?"领先":"落后"} <b>${Math.abs(diff).toFixed(2)}</b> 名`}</div>`:""}</div>${face(op,"op",hasAvg?R[4]:0)}</div></section>`;
   }
   h+=`</div>`;
