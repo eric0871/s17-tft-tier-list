@@ -1,9 +1,22 @@
-# S17 星神世界赛选手排名 (TFT Space Gods Tactician's Crown Tier List)
+# S18 世界赛选手评级 (TFT Enchanted Wilds Tactician's Crown Tier List)
 
-可拖拽的 Tier List:把 40 名 TFT Set 17「Space Gods」Tactician's Crown（2026-07-10~12）世界赛选手拖进 S / A / B / C / 金铲铲 五档。
-
-- 单文件 `index.html`，选手照片已 base64 内嵌，无外部依赖
-- 桌面浏览器鼠标拖拽；排位存 localStorage，刷新不丢
-- 数据来源 [Liquipedia](https://liquipedia.net/tft/Space_Gods/Tacticians_Crown)，国旗 flagcdn.com，头像 Liquipedia（无照片则用国旗）
+可拖拽的选手评级：把 40 名 TFT Set 18「Enchanted Wilds」Tactician's Crown（2026-11-13 ~ 15）世界赛选手放进 S / A / B / C / 金铲铲 五档。
 
 **在线版**：https://eric0871.github.io/s17-tft-tier-list/
+
+## 功能
+- 点击或拖动选手，右侧显示他的数据：晋级方式、S18 本赛季平均名次 / 前四率 / 吃鸡率（含 40 人中的排名）、最近 20 局名次、历届世界赛名次、本赛季最佳战绩、生涯数据
+- 放进档位时有落位动效（S 档和金铲铲档更大）
+- 「导出图片」把评级板导出成 PNG
+- 选中选手后按 `S` `A` `B` `C` `G`（或 `1`–`5`）直接放进对应档位，`0` 退回选手池
+- 选手池可按赛区筛选；评级存在浏览器本地，刷新不丢
+- 按 1920×1080 设计，适合录屏
+
+## 数据
+- 选手名单：Riot 官方 Enchanted Wilds Tactician's Crown Primer
+- 比赛数据：[GanglyStats](https://ganglystats.com/)（2026-11-11 更新），世界赛履历覆盖 Set 3 起所有 Championship / Tactician's Crown
+- 头像：`photos/s18/<id>.jpg`，没有照片的选手显示名字缩写。用 `python scripts/fetch_photos_s18.py` 在自己电脑上从 Liquipedia 补齐，提交后自动生效
+- 国旗：`flags/`（来自 flagcdn.com）
+
+## 旧版
+- S17 Space Gods 版本：[archive/s17.html](archive/s17.html)
