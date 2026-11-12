@@ -237,7 +237,8 @@ h1{display:flex;align-items:baseline;gap:calc(12 * var(--fs));margin-top:calc(6 
 .panel{position:absolute;inset:0;display:flex;flex-direction:column;opacity:0;transform:translateX(18px);pointer-events:none;
   transition:opacity .28s ease, transform .28s ease}
 .side.open .panel{opacity:1;transform:none;pointer-events:auto}
-.pin{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:calc(10 * var(--fs));padding:calc(22 * var(--fs)) calc(10 * var(--fs))}
+.pin{flex:1;min-height:0;display:flex;flex-direction:column;gap:calc(10 * var(--fs));padding:calc(10 * var(--fs))}
+.pin>.hero+*{margin-top:auto}.pin>:last-child{margin-bottom:auto}
 .hero{--hf:linear-gradient(160deg,rgba(255,255,255,.3),rgba(255,255,255,.08));--hw:1px;
   flex:0 1 33%;max-height:33%;min-height:calc(128 * var(--fs));position:relative;border-radius:calc(14 * var(--fs));padding:var(--hw);background:var(--hf);touch-action:none}
 .hero[data-tier="S"]{--hf:var(--holo);--hw:2px}
@@ -386,10 +387,11 @@ h1{display:flex;align-items:baseline;gap:calc(12 * var(--fs));margin-top:calc(6 
 .rv-mid{text-align:center;min-width:0}
 .rv-n{font:400 calc(13 * var(--fs))/1 var(--zh);color:var(--mute);letter-spacing:.1em;display:flex;align-items:baseline;justify-content:center;gap:calc(5 * var(--fs))}
 .rv-n i{font:850 calc(30 * var(--fs))/1 var(--fx);font-style:normal;color:#fff;letter-spacing:0}
-.rv-bar{position:relative;height:calc(6 * var(--fs));border-radius:99px;background:rgba(255,255,255,.09);margin:calc(9 * var(--fs)) 0 calc(7 * var(--fs))}
+.rv-bar{position:relative;height:calc(6 * var(--fs));border-radius:99px;background:rgba(255,195,232,.16);margin:calc(9 * var(--fs)) 0 calc(7 * var(--fs))}
 .rv-bar i{position:absolute;left:0;top:0;bottom:0;border-radius:99px;background:var(--holo);box-shadow:0 0 10px rgba(190,220,255,.35);transform-origin:left;animation:grow .8s .45s ease-out backwards}
 .rv-bar::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:rgba(255,255,255,.4)}
-.rv-w{font:400 calc(13 * var(--fs))/1 var(--zh);color:var(--mute);letter-spacing:.06em}
+.rv-w{display:flex;justify-content:space-between;font:400 calc(13 * var(--fs))/1 var(--zh);color:var(--mute);letter-spacing:.06em}
+.rv-w span:last-child{color:var(--dim)}
 .rv-w i{font:800 calc(17 * var(--fs))/1 var(--fx);font-style:normal;color:var(--plat);margin:0 calc(2 * var(--fs))}
 .rival{margin-top:calc(5 * var(--fs));height:calc(26 * var(--fs));display:flex;align-items:center;gap:calc(9 * var(--fs));padding:0 calc(10 * var(--fs));
   border-radius:calc(8 * var(--fs));background:linear-gradient(90deg,rgba(255,255,255,.055),rgba(255,255,255,.015));box-shadow:inset 0 0 0 1px var(--line)}
@@ -684,7 +686,7 @@ function select(id,quiet){
     const face=(q,cls)=>`<div class="rv-p ${cls}" ${q&&q.id!==p.id?`data-goto="${esc(q.id)}"`:""}><div class="rv-av">${miniArt(q)}</div><b class="${(q?q.n:R[0]).length>10?"long":""}">${esc(q?q.n:R[0])}</b></div>`;
     h+=`<section class="rv"><div class="rv-h"><span class="rv-k">宿敌</span><span class="rv-e">RIVAL</span></div>
       <div class="rv-body">${face(p,"me")}<div class="rv-mid"><div class="rv-n">同桌<i>${R[1]}</i>次</div>
-        <div class="rv-bar"><i style="width:${share}%"></i></div><div class="rv-w">压过他 <i>${R[2]}</i> 次</div></div>${face(op,"op")}</div></section>`;
+        <div class="rv-bar"><i style="width:${share}%"></i></div><div class="rv-w"><span>压过他 <i>${R[2]}</i> 次</span><span>被他压 <i>${R[1]-R[2]}</i> 次</span></div></div>${face(op,"op")}</div></section>`;
   }
   h+=`</div>`;
   pn.innerHTML=h;
