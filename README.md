@@ -15,7 +15,7 @@
 ## 数据
 - 选手名单：Riot 官方 Enchanted Wilds Tactician's Crown Primer
 - 比赛数据：[GanglyStats](https://ganglystats.com/)（2026-11-11 更新），世界赛履历覆盖 Set 3 起所有 Championship / Tactician's Crown
-- 头像：`photos/s18/<id>.jpg`，没有照片的选手显示名字缩写。用 `python scripts/fetch_photos_s18.py` 在自己电脑上从 Liquipedia 补齐，提交后自动生效
+- 头像：官方 Pick'em 网站（pickem.competetft.com）的统一定妆照，抠掉了赛区色底：`photos/s18/<id>.png`（透明底）/ `.jpg`（深灰底）。`python scripts/fetch_photos_s18.py` 可重新生成。官方 Pick'em 上 Maris 那张其实是 Milo 的照片，Maris 改用 Liquipedia 定妆照
 - 国旗：`flags/`（来自 flagcdn.com）
 
 ## 旧版
