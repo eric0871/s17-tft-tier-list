@@ -60,6 +60,32 @@ BYNAME={re.sub(r'[^A-Za-z0-9]','_',o['key']):o['name'] for o in D}
 for o,p in zip(D,out):
     p['e'],p['wa'],p['rv']=extra(o['key'],BYNAME)
     p['ev']=majors(o)
+# rival: both players' average placement in the lobbies they shared (GanglyStats h2h.js matchups: [opp, lobbies, finished_above, avp_with, avp_without])
+_c=open(os.path.join(H,'core.js')).read().split('\n'); K=json.loads(_c[3][len('window.__TFT_PACK = '):].rstrip(';'))
+_T={x['id']:x for x in K['tours']}; _G={r.get('id'):r.get('$g','') for _,r in K['players']}
+def _games(gs):
+    g,v={},_G.get(gs,''); n=lambda i,w:int(v[i:i+w],36)
+    for i in range(0,len(v),12):
+        tid=K['tids'][n(i,2)]; lob=n(i+10,2)
+        if str(_T.get(tid,{}).get('tier'))=='1' and lob: g[(tid,n(i+4,1),n(i+5,2),lob)]=n(i+7,1)
+    return g
+def shared(a,b):
+    A,B=_games(a),_games(b); k=[x for x in A if x in B]
+    if not k: return 0,0,None,None
+    return len(k),sum(A[x]<B[x] for x in k),round(sum(A[x] for x in k)/len(k),2),round(sum(B[x] for x in k)/len(k),2)
+_h=open(os.path.join(H,'h2h.js')).read(); M=json.loads(_h[_h.index('=')+1:].strip().rstrip(';'))['matchups']
+GS={p['n']:p['gs'] for p in out}
+def mu(a,b): return next((o for o in M.get(a,{}).get('opp',[]) if o[0]==b),None)
+for p in out:
+    if not p['rv']: continue
+    me,op=p['gs'],GS[p['rv'][0]]; a,b=mu(me,op),mu(op,me)
+    if a and b:
+        assert a[1]==p['rv'][1]==b[1] and a[2]==p['rv'][2] and a[2]+b[2]==a[1], (p['id'],a,b,p['rv'])
+        avg=[a[3],b[3]]
+    else:  # the rival's list is capped at his top 25 opponents; rebuild from per-game lobby data and accept only an exact match
+        n_,ab,x,y=shared(me,op)
+        avg=[x,y] if (n_,ab)==(p['rv'][1],p['rv'][2]) else None
+    if avg: p['rv']+=avg  # [rival name, lobbies, times he finished above, his avg place, rival's avg place] in shared lobbies
 json.dump(out,open(os.path.join(H,'site_players.json'),'w'),ensure_ascii=False,separators=(',',':'))
 print(len(out), len(json.dumps(out,ensure_ascii=False)))
 for x in out: print(x['n'],'|',x['q'],'|',x['tr'],'|',x['ph'])

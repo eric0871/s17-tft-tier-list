@@ -237,7 +237,7 @@ h1{display:flex;align-items:baseline;gap:calc(12 * var(--fs));margin-top:calc(6 
 .panel{position:absolute;inset:0;display:flex;flex-direction:column;opacity:0;transform:translateX(18px);pointer-events:none;
   transition:opacity .28s ease, transform .28s ease}
 .side.open .panel{opacity:1;transform:none;pointer-events:auto}
-.pin{flex:1;min-height:0;display:flex;flex-direction:column;gap:calc(10 * var(--fs));padding:calc(10 * var(--fs))}
+.pin{flex:1;min-height:0;display:flex;flex-direction:column;gap:var(--pg,calc(10 * var(--fs)));padding:calc(10 * var(--fs))}
 .pin>.hero+*{margin-top:auto}.pin>:last-child{margin-bottom:auto}
 .hero{--hf:linear-gradient(160deg,rgba(255,255,255,.3),rgba(255,255,255,.08));--hw:1px;
   flex:0 1 33%;max-height:33%;min-height:calc(128 * var(--fs));position:relative;border-radius:calc(14 * var(--fs));padding:var(--hw);background:var(--hf);touch-action:none}
@@ -296,7 +296,7 @@ h1{display:flex;align-items:baseline;gap:calc(12 * var(--fs));margin-top:calc(6 
 .sec{flex:none}
 .sec-h{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:calc(5 * var(--fs));padding:0 calc(4 * var(--fs))}
 .sec-h h3{font:400 calc(13 * var(--fs))/1 var(--zh);letter-spacing:.2em;color:var(--plat);display:flex;align-items:center;gap:8px;white-space:nowrap}
-.sec-h h3::before{content:"";width:calc(10 * var(--fs));height:1px;background:var(--holo)}
+.sec-h h3::before{content:"";flex:none;width:calc(7 * var(--fs));height:calc(7 * var(--fs));border-radius:1.5px;transform:rotate(45deg);background:var(--holo);background-size:180% 180%;box-shadow:0 0 calc(8 * var(--fs)) rgba(190,215,255,.45)}
 .sec-h span{font:500 calc(11 * var(--fs))/1.1 var(--fx);color:var(--dim);letter-spacing:.04em;text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}
 .sec-h span b{color:var(--tx);font-weight:700}
 .sec-h span b.q{font:400 calc(13.5 * var(--fs))/1 var(--zh);letter-spacing:.04em;color:var(--plat)}
@@ -392,6 +392,10 @@ h1{display:flex;align-items:baseline;gap:calc(12 * var(--fs));margin-top:calc(6 
 .rv-bar::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:rgba(255,255,255,.4)}
 .rv-w{display:flex;justify-content:space-between;font:400 calc(13 * var(--fs))/1 var(--zh);color:var(--mute);letter-spacing:.06em}
 .rv-w span:last-child{color:var(--dim)}
+.rv-avp{font:400 calc(10.5 * var(--fs))/1 var(--zh);color:var(--dim);letter-spacing:.04em;white-space:nowrap}
+.rv-avp i{font:700 calc(12 * var(--fs))/1 var(--fx);font-style:normal;color:var(--plat)}
+.rv-d{margin-top:calc(8 * var(--fs));font:400 calc(12.5 * var(--fs))/1 var(--zh);color:var(--mute);letter-spacing:.06em}
+.rv-d b{font:800 calc(17 * var(--fs))/1 var(--fx);color:#fff;letter-spacing:0;margin:0 2px}
 .rv-w i{font:800 calc(17 * var(--fs))/1 var(--fx);font-style:normal;color:var(--plat);margin:0 calc(2 * var(--fs))}
 .rival{margin-top:calc(5 * var(--fs));height:calc(26 * var(--fs));display:flex;align-items:center;gap:calc(9 * var(--fs));padding:0 calc(10 * var(--fs));
   border-radius:calc(8 * var(--fs));background:linear-gradient(90deg,rgba(255,255,255,.055),rgba(255,255,255,.015));box-shadow:inset 0 0 0 1px var(--line)}
@@ -683,10 +687,12 @@ function select(id,quiet){
     </section>`;
   if(R){ // 宿敌：世界赛选手里和他同桌最多的人；没有就整块不出，空间留给大头像
     const op=byName[R[0]],share=Math.round(R[2]/R[1]*100);
-    const face=(q,cls)=>`<div class="rv-p ${cls}" ${q&&q.id!==p.id?`data-goto="${esc(q.id)}"`:""}><div class="rv-av">${miniArt(q)}</div><b class="${(q?q.n:R[0]).length>10?"long":""}">${esc(q?q.n:R[0])}</b></div>`;
+    const hasAvg=R.length>=5,diff=hasAvg?Math.round((R[4]-R[3])*100)/100:0;
+    const face=(q,cls,avg)=>`<div class="rv-p ${cls}" ${q&&q.id!==p.id?`data-goto="${esc(q.id)}"`:""}><div class="rv-av">${miniArt(q)}</div><b class="${(q?q.n:R[0]).length>10?"long":""}">${esc(q?q.n:R[0])}</b>${hasAvg?`<span class="rv-avp">同桌均名 <i>${avg.toFixed(2)}</i></span>`:""}</div>`;
     h+=`<section class="rv"><div class="rv-h"><span class="rv-k">宿敌</span><span class="rv-e">RIVAL</span></div>
-      <div class="rv-body">${face(p,"me")}<div class="rv-mid"><div class="rv-n">同桌<i>${R[1]}</i>次</div>
-        <div class="rv-bar"><i style="width:${share}%"></i></div><div class="rv-w"><span>压过他 <i>${R[2]}</i> 次</span><span>被他压 <i>${R[1]-R[2]}</i> 次</span></div></div>${face(op,"op")}</div></section>`;
+      <div class="rv-body">${face(p,"me",hasAvg?R[3]:0)}<div class="rv-mid"><div class="rv-n">同桌<i>${R[1]}</i>次</div>
+        <div class="rv-bar"><i style="width:${share}%"></i></div><div class="rv-w"><span>压过他 <i>${R[2]}</i> 次</span><span>被他压 <i>${R[1]-R[2]}</i> 次</span></div>
+        ${hasAvg?`<div class="rv-d">${Math.abs(diff)<0.005?"同桌平均名次 <b>持平</b>":`同桌平均名次${diff>0?"领先":"落后"} <b>${Math.abs(diff).toFixed(2)}</b> 名`}</div>`:""}</div>${face(op,"op",hasAvg?R[4]:0)}</div></section>`;
   }
   h+=`</div>`;
   pn.innerHTML=h;
@@ -713,7 +719,15 @@ function fitHero(){
 }
 function fitPanel(){
   const pin=$("#panel .pin");if(!pin) return;
-  pin.classList.remove("tight");
+  pin.classList.remove("tight");pin.style.removeProperty("--pg");
+  const kids=[...pin.children];if(kids.length<2) return;
+  const cs=getComputedStyle(pin),base=parseFloat(cs.rowGap)||0;
+  const used=kids.reduce((s,k)=>s+k.offsetHeight,0)+base*(kids.length-1);
+  const free=pin.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom)-used;
+  if(free<=1) return;
+  // 数据少的人：先把多出来的高度分给各区块之间的留白（每处最多 +26），剩下的才留在数据块上下
+  const extra=Math.min(free/(kids.length+1),26*kVal);
+  pin.style.setProperty("--pg",(base+extra)+"px");
 }
 $("#panel").addEventListener("click",e=>{
   const g=e.target.closest("[data-goto]");if(g&&byId[g.dataset.goto]){select(g.dataset.goto);return;}

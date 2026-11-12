@@ -1,6 +1,6 @@
 # 重新生成 S18 数据
 
-1. 下载 GanglyStats 数据：`curl -o core.js https://ganglystats.com/data/core.js`（放在本目录，别提交）
+1. 下载 GanglyStats 数据：`curl -o core.js https://ganglystats.com/data/core.js` 和 `curl -o h2h.js https://ganglystats.com/data/h2h.js`（宿敌同桌数据；都放在本目录，别提交）
 2. `python data.py core.js players.json` —— 解码 GanglyStats 的打包数据，算出 40 人的赛季/生涯/最近 20 局/世界赛履历
 3. `python final.py` —— 加上手工字段（中国选手中文 ID、CN 晋级方式、战队全称、已核实的数据更正）和 `extra.json` 里的补充数据（Liquipedia 累计奖金、GanglyStats 世界赛场均和最常同桌对手），输出 site_players.json
    - `extra.json` 由 `extra_scripts/` 生成（Liquipedia 只能走 API，限速很严，首次约 35 分钟；说明见各脚本开头）
