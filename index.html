@@ -374,12 +374,6 @@ h1{display:flex;align-items:baseline;gap:calc(12 * var(--fs));margin-top:calc(6 
 .facts>div{border-radius:calc(9 * var(--fs));padding:calc(7 * var(--fs)) calc(7 * var(--fs));min-width:0;background:rgba(255,255,255,.03);box-shadow:inset 0 0 0 1px var(--line)}
 .facts span{display:block;font:400 calc(11 * var(--fs))/1 var(--zh);color:var(--dim);letter-spacing:.06em}
 .facts b{display:block;font:750 calc(17 * var(--fs))/1 var(--fx);font-stretch:84%;margin-top:calc(5 * var(--fs));color:var(--plat);white-space:nowrap}
-.src{flex:none;display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:2px 12px;padding:0 calc(4 * var(--fs));
-  font:400 calc(10.5 * var(--fs))/1.45 var(--zh);color:var(--dim);letter-spacing:.03em}
-.src a{color:var(--mute);text-decoration:none;box-shadow:inset 0 -1px 0 var(--line2)}
-.src kbd{display:inline-block;min-width:1.5em;text-align:center;font:650 calc(10 * var(--fs))/1.5 var(--fx);color:var(--mute);border-radius:4px;box-shadow:inset 0 0 0 1px var(--line2);margin:0 1px}
-.src>div{white-space:nowrap}
-.keys{text-align:right;white-space:nowrap;margin-left:auto}
 .pin.enter .hero{animation:heroIn .55s cubic-bezier(.2,.9,.25,1)}
 .pin.enter .sec,.pin.enter .qual{animation:up .45s ease-out backwards}
 .pin.enter .qual{animation-delay:.06s}
@@ -659,8 +653,7 @@ function select(id,quiet){
     <div class="prize">${E?`<span>累计奖金 · 40 人第 <i>${E[1]}</i></span><b><em>约</em>$${Number(E[0]).toLocaleString("en-US")}</b>${E[2]?`<small>${esc(E[2])}</small>`:""}`
       :`<span>累计奖金</span><b>—<em class="na">暂无记录</em></b>`}</div></div>
     ${R?`<div class="rival"><span class="k">${ICON_VS}宿敌</span><b>${esc(R[0])}</b><span class="m">同桌 <i>${R[1]}</i> 次 · 压过他 <i>${R[2]}</i> 次</span></div>`:""}</section>`;
-  h+=`<div class="src"><div>数据：<a href="https://ganglystats.com/player.html?id=${encodeURIComponent(p.gs)}" target="_blank" rel="noopener">GanglyStats</a>（更新于 ${esc(META.updated)}）· Liquipedia（奖金）</div>
-    <div class="keys">快捷键 <kbd>S</kbd><kbd>A</kbd><kbd>B</kbd><kbd>C</kbd><kbd>G</kbd> 放入 · <kbd>0</kbd> 退回</div></div></div>`;
+  h+=`</div>`;
   pn.innerHTML=h;
   fitHero();fitPanel();
   if(!quiet) save();
