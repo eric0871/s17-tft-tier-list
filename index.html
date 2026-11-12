@@ -237,7 +237,7 @@ h1{display:flex;align-items:baseline;gap:calc(12 * var(--fs));margin-top:calc(6 
 .panel{position:absolute;inset:0;display:flex;flex-direction:column;opacity:0;transform:translateX(18px);pointer-events:none;
   transition:opacity .28s ease, transform .28s ease}
 .side.open .panel{opacity:1;transform:none;pointer-events:auto}
-.pin{flex:1;min-height:0;display:flex;flex-direction:column;gap:calc(7 * var(--fs));padding:calc(10 * var(--fs))}
+.pin{flex:1;min-height:0;display:flex;flex-direction:column;gap:calc(10 * var(--fs));padding:calc(10 * var(--fs))}
 .hero{--hf:linear-gradient(160deg,rgba(255,255,255,.3),rgba(255,255,255,.08));--hw:1px;
   flex:1 1 auto;min-height:calc(128 * var(--fs));position:relative;border-radius:calc(14 * var(--fs));padding:var(--hw);background:var(--hf);touch-action:none}
 .hero[data-tier="S"]{--hf:var(--holo);--hw:2px}
@@ -302,7 +302,7 @@ h1{display:flex;align-items:baseline;gap:calc(12 * var(--fs));margin-top:calc(6 
 .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:calc(6 * var(--fs))}
 .st{position:relative;overflow:hidden;border-radius:calc(10 * var(--fs));padding:calc(8 * var(--fs)) calc(8 * var(--fs)) calc(9 * var(--fs));background:rgba(255,255,255,.035);box-shadow:inset 0 0 0 1px var(--line)}
 .st .lb{font:400 calc(12 * var(--fs))/1 var(--zh);color:var(--mute);letter-spacing:.06em}
-.st .v{font:750 calc(26 * var(--fs))/1 var(--fx);font-stretch:90%;margin-top:calc(6 * var(--fs));letter-spacing:-.01em}
+.st .v{font:750 calc(28 * var(--fs))/1 var(--fx);font-stretch:90%;margin-top:calc(6 * var(--fs));letter-spacing:-.01em}
 .st .rk{font:500 calc(11 * var(--fs))/1 var(--fx);color:var(--dim);margin-top:calc(5 * var(--fs));white-space:nowrap}
 .st .rk em{font:400 calc(11 * var(--fs))/1 var(--zh);font-style:normal}
 .st .rk b{color:var(--tx);font-weight:750}
@@ -364,6 +364,33 @@ h1{display:flex;align-items:baseline;gap:calc(12 * var(--fs));margin-top:calc(6 
 .facts .prize b em{font:400 calc(11.5 * var(--fs))/1 var(--zh);font-style:normal;color:var(--mute);margin-right:calc(3 * var(--fs))}
 .facts .prize b em.na{margin:0 0 0 calc(7 * var(--fs));font-size:calc(11 * var(--fs));color:var(--dim)}
 .facts .prize small{display:block;margin-top:calc(4 * var(--fs));font:400 calc(9.5 * var(--fs))/1 var(--zh);color:var(--dim);white-space:nowrap}
+.rv{flex:none;position:relative;overflow:hidden;border-radius:calc(12 * var(--fs));padding:calc(10 * var(--fs)) calc(12 * var(--fs)) calc(11 * var(--fs));
+  background:linear-gradient(100deg,rgba(205,226,255,.11),rgba(255,255,255,.025) 42%,rgba(255,255,255,.02) 58%,rgba(255,195,232,.08));
+  box-shadow:inset 0 0 0 1px rgba(205,226,255,.22),0 10px 30px rgba(0,0,0,.35);animation:up .45s .3s ease-out backwards}
+.rv::before{content:"";position:absolute;left:12%;right:12%;top:0;height:1.5px;background:var(--holo);opacity:.9}
+.rv-h{display:flex;align-items:center;justify-content:center;gap:calc(10 * var(--fs))}
+.rv-k{font:400 calc(28 * var(--fs))/1 var(--zh);letter-spacing:.4em;padding-left:.4em;background:var(--holo);background-size:220% 100%;
+  -webkit-background-clip:text;background-clip:text;color:transparent;animation:holoText 7s linear infinite;filter:drop-shadow(0 0 14px rgba(190,220,255,.4))}
+.rv-e{font:700 calc(10 * var(--fs))/1 var(--fx);letter-spacing:.42em;color:var(--dim)}
+.rv-body{display:grid;grid-template-columns:calc(80 * var(--fs)) minmax(0,1fr) calc(80 * var(--fs));align-items:center;gap:calc(8 * var(--fs));margin-top:calc(9 * var(--fs))}
+.rv-p{display:flex;flex-direction:column;align-items:center;gap:calc(6 * var(--fs));min-width:0}
+.rv-p[data-goto]{cursor:pointer}
+.rv-av{--cw:calc(54 * var(--fs));width:calc(54 * var(--fs));height:calc(54 * var(--fs));border-radius:calc(13 * var(--fs));position:relative;overflow:hidden;
+  background:radial-gradient(90% 70% at 50% 30%,rgba(205,218,240,.24),transparent 72%),linear-gradient(172deg,#1e2129,#0b0c10 80%);box-shadow:inset 0 0 0 1px rgba(255,255,255,.2)}
+.rv-p.op .rv-av{background:radial-gradient(90% 70% at 50% 30%,rgba(255,195,232,.22),transparent 72%),linear-gradient(172deg,#1e2129,#0b0c10 80%)}
+.rv-av img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.rv-av .mono span{font-size:calc(34 * var(--fs))}
+.rv-p b{font:750 calc(12.5 * var(--fs))/1 var(--fx);font-stretch:80%;white-space:nowrap;max-width:100%;color:var(--plat)}
+.rv-p b.long{font-size:calc(10.5 * var(--fs));font-stretch:75%}
+.rv-p.op b{color:#fff}
+.rv-mid{text-align:center;min-width:0}
+.rv-n{font:400 calc(13 * var(--fs))/1 var(--zh);color:var(--mute);letter-spacing:.1em;display:flex;align-items:baseline;justify-content:center;gap:calc(5 * var(--fs))}
+.rv-n i{font:850 calc(30 * var(--fs))/1 var(--fx);font-style:normal;color:#fff;letter-spacing:0}
+.rv-bar{position:relative;height:calc(6 * var(--fs));border-radius:99px;background:rgba(255,255,255,.09);margin:calc(9 * var(--fs)) 0 calc(7 * var(--fs))}
+.rv-bar i{position:absolute;left:0;top:0;bottom:0;border-radius:99px;background:var(--holo);box-shadow:0 0 10px rgba(190,220,255,.35);transform-origin:left;animation:grow .8s .45s ease-out backwards}
+.rv-bar::after{content:"";position:absolute;left:50%;top:-3px;bottom:-3px;width:1px;background:rgba(255,255,255,.4)}
+.rv-w{font:400 calc(13 * var(--fs))/1 var(--zh);color:var(--mute);letter-spacing:.06em}
+.rv-w i{font:800 calc(17 * var(--fs))/1 var(--fx);font-style:normal;color:var(--plat);margin:0 calc(2 * var(--fs))}
 .rival{margin-top:calc(5 * var(--fs));height:calc(26 * var(--fs));display:flex;align-items:center;gap:calc(9 * var(--fs));padding:0 calc(10 * var(--fs));
   border-radius:calc(8 * var(--fs));background:linear-gradient(90deg,rgba(255,255,255,.055),rgba(255,255,255,.015));box-shadow:inset 0 0 0 1px var(--line)}
 .rival .k{font:400 calc(12 * var(--fs))/1 var(--zh);color:var(--mute);letter-spacing:.12em;display:flex;align-items:center;gap:calc(5 * var(--fs));white-space:nowrap}
@@ -479,6 +506,7 @@ const TIERS = ["S","A","B","C","god"];
 const TIER_NAME = {S:"S",A:"A",B:"B",C:"C",god:"金铲铲"};
 const REGION_ORDER = {CN:0,AMER:1,EMEA:2,APAC:3};
 const byId = Object.fromEntries(PLAYERS.map(p=>[p.id,p]));
+const byName = Object.fromEntries(PLAYERS.map(p=>[p.n,p]));
 const $ = s=>document.querySelector(s);
 const $$ = s=>[...document.querySelectorAll(s)];
 const esc = s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -581,6 +609,11 @@ function heroArtHTML(p){
   const m=monoText(p);const nm=esc(p.n.toUpperCase());
   return `<div class="hmono"><div class="tex">${Array(7).fill(`<div>${(nm+" · ").repeat(6)}</div>`).join("")}</div><div class="big ${m.zh?"zh":""}">${esc(m.zh?p.cn:p.n.replace(/[^A-Za-z0-9]/g,"").slice(0,2).toUpperCase()||m.t)}</div></div>`;
 }
+function miniArt(q){
+  if(!q) return `<div class="mono"><span>?</span></div>`;
+  if(q.ph&&photoOK[q.id]!==false) return `<img src="${esc(phSrc(q))}" alt="" draggable="false" onerror="this.outerHTML=monoEl(byId['${esc(q.id)}']).outerHTML">`;
+  return monoEl(q).outerHTML;
+}
 function refreshHeroArt(p){const a=$("#panel .hart");if(a&&selected===p.id) a.innerHTML=heroArtHTML(p);}
 function tierOf(id){const z=zoneOf(cardEl(id));return z&&z!=="pool"?z:null;}
 function heroTopHTML(p){
@@ -621,13 +654,6 @@ function select(id,quiet){
       ${cell("平均名次",s.avp.toFixed(2),s.r_avp)}${cell("前四率",pct(s.top4),s.r_top4)}${cell("吃鸡率",pct(s.win),s.r_win)}
       <div class="st"><div class="lb">垫底率</div><div class="v">${pct(s.eighth)}</div><div class="rk"><em>第 8 名占比</em></div></div></div></section>`;
   }
-  if(p.l20.length){
-    const L=p.l20.map(x=>x[0]);const avg=(L.reduce((a,b)=>a+b,0)/L.length).toFixed(2);
-    const t4=L.filter(x=>x<=4).length,w=L.filter(x=>x===1).length;
-    h+=`<section class="sec"><div class="sec-h"><h3>最近 ${L.length} 局</h3><span>均名 <b>${avg}</b> · 前四 <b>${t4}/${L.length}</b> · 吃鸡 <b>${w}</b></span></div>
-      <div class="form">${p.l20.map((x,i)=>`<div class="pl p${x[0]}" style="animation-delay:${80+i*16}ms">${x[0]}</div>`).join("")}</div>
-      <div class="formax"><span><em>← 更早</em></span><span><em>最近 →</em> ${esc(p.l20[p.l20.length-1][1])}</span></div></section>`;
-  }
   const W=p.w;
   if(W.length){
     const champs=W.filter(x=>x[1]===1).length,best=Math.min(...W.map(x=>x[1]));
@@ -652,7 +678,14 @@ function select(id,quiet){
     ${c?`<div><span>局数</span><b>${c.gp}</b></div><div><span>平均名次</span><b>${c.avp.toFixed(2)}</b></div><div><span>前四率</span><b>${pct(c.top4)}</b></div>`:""}<div><span>大赛冠军</span><b>${p.ti}</b></div>
     <div class="prize">${E?`<span>累计奖金 · 40 人第 <i>${E[1]}</i></span><b><em>约</em>$${Number(E[0]).toLocaleString("en-US")}</b>${E[2]?`<small>${esc(E[2])}</small>`:""}`
       :`<span>累计奖金</span><b>—<em class="na">暂无记录</em></b>`}</div></div>
-    ${R?`<div class="rival"><span class="k">${ICON_VS}宿敌</span><b>${esc(R[0])}</b><span class="m">同桌 <i>${R[1]}</i> 次 · 压过他 <i>${R[2]}</i> 次</span></div>`:""}</section>`;
+    </section>`;
+  if(R){ // 宿敌：世界赛选手里和他同桌最多的人；没有就整块不出，空间留给大头像
+    const op=byName[R[0]],share=Math.round(R[2]/R[1]*100);
+    const face=(q,cls)=>`<div class="rv-p ${cls}" ${q&&q.id!==p.id?`data-goto="${esc(q.id)}"`:""}><div class="rv-av">${miniArt(q)}</div><b class="${(q?q.n:R[0]).length>10?"long":""}">${esc(q?q.n:R[0])}</b></div>`;
+    h+=`<section class="rv"><div class="rv-h"><span class="rv-k">宿敌</span><span class="rv-e">RIVAL</span></div>
+      <div class="rv-body">${face(p,"me")}<div class="rv-mid"><div class="rv-n">同桌<i>${R[1]}</i>次</div>
+        <div class="rv-bar"><i style="width:${share}%"></i></div><div class="rv-w">压过他 <i>${R[2]}</i> 次</div></div>${face(op,"op")}</div></section>`;
+  }
   h+=`</div>`;
   pn.innerHTML=h;
   fitHero();fitPanel();
@@ -681,6 +714,7 @@ function fitPanel(){
   pin.classList.remove("tight");
 }
 $("#panel").addEventListener("click",e=>{
+  const g=e.target.closest("[data-goto]");if(g&&byId[g.dataset.goto]){select(g.dataset.goto);return;}
   const b=e.target.closest("[data-act]");if(!b) return;
   if(b.dataset.act==="close") deselect();
   if(b.dataset.act==="out"&&selected) place(selected,"pool");
