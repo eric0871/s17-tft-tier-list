@@ -24,6 +24,24 @@ def extra(k,byname):
     r=(gs.get('most_met_crown_rivals') or [None])[0]
     rv=[byname.get(r['vs_id'],r['vs']),r['lobbies'],r['finished_above']] if r else None
     return e,wa,rv
+# S18 major events (Liquipedia S-Tier = TFT Pro Circuit cups incl. CN TOC/JOC TPC; A-Tier = regional / national finals)
+def evname(x):
+    s=x['short'] or x['name']
+    if s=='TPC CN': return '端游 TPC','S'
+    if s.startswith('TPC '): return s,'S'
+    if s=='CN National Finals (Autumn Open)': return '端游国服决赛','A'
+    if s=='CN JOC National Finals (Autumn Open)': return '金铲铲国服决赛','A'
+    if s.endswith('Regional Finals'): return s.replace('Regional Finals','赛区决赛'),'A'
+    return s,'A'
+# JOC TPC (2026-09-04 ~ 09-13, Liquipedia S-Tier) is missing from GanglyStats; places from Liquipedia's prize pool (shared slots = tied range)
+JOC_TPC={'diaomei':1,'Hanxing':'9–10','HangHang':'11–12'}
+def majors(o):
+    ev=[]
+    for x in o.get('s18ev',[]):
+        nm,tier=evname(x); ev.append([x['date'],nm,x['place'],x['n'],tier])
+    if o['key'] in JOC_TPC: ev.append(['2026-09-04','金铲铲 TPC',JOC_TPC[o['key']],16,'S'])
+    ev.sort(key=lambda e:e[0])
+    return [[f"{int(e[0][5:7])}.{e[0][8:10]}"]+e[1:] for e in ev]
 out=[]
 for o in D:
     k=o['key']; q,tr=o['qual'],o['track']
@@ -41,6 +59,7 @@ for o in D:
 BYNAME={re.sub(r'[^A-Za-z0-9]','_',o['key']):o['name'] for o in D}
 for o,p in zip(D,out):
     p['e'],p['wa'],p['rv']=extra(o['key'],BYNAME)
+    p['ev']=majors(o)
 json.dump(out,open(os.path.join(H,'site_players.json'),'w'),ensure_ascii=False,separators=(',',':'))
 print(len(out), len(json.dumps(out,ensure_ascii=False)))
 for x in out: print(x['n'],'|',x['q'],'|',x['tr'],'|',x['ph'])

@@ -53,7 +53,8 @@ for key,disp,team,reg,iso,cn in R:
     last20=[dict(p=x['p'],ev=x['ev'],d=x['d']) for x in games[-20:]],
     worlds=worlds,titles=sum(1 for x in th if x['place']==1 and x['tier'] in ('0','1')),
     best=[dict(ev=x['name'].replace('Enchanted Wilds: ','').replace('TFT Pro Circuit - ','TPC '),place=x['place']) for x in best],
-    gid=p.get('id'),names=p.get('names_seen')))
+    gid=p.get('id'),names=p.get('names_seen'),
+    s18ev=[dict(name=x['name'],short=x['short'],place=x['place'],n=x['n'],date=x['date'],end=tours.get(x['id'],{}).get('date_end')) for x in s18 if x['tier']=='1']))
 # ranks among 40
 for k,rev in [('avp',False),('top4',True),('win',True)]:
   vals=sorted([o['s18'][k] for o in out if o['s18']],reverse=rev)
