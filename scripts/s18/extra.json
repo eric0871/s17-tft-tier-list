@@ -1,0 +1,4844 @@
+{
+ "_meta": {
+  "generated": "2026-11-12T04:16:02+00:00",
+  "sources": [
+   "https://liquipedia.net/tft/ (API: action=parse section 0 + action=query wikitext)",
+   "https://ganglystats.com/data/core.js, h2h.js, ratings.js (records only)",
+   "https://competetft.com/en-US/tournament/116918001686340951/qualification"
+  ],
+  "notes": "total_winnings = Liquipedia 'Approx. Total Winnings' (USD, prize money Liquipedia has recorded; CN events converted from CNY). JOC 2026 Fall Regional Finals prizes were not on Liquipedia yet on 2026-11-12, so HuiYuan/HangHang/Linshen/Hexi are undercounted."
+ },
+ "players": {
+  "Broseph": {
+   "name": "Broseph",
+   "liquipedia": {
+    "page": "Broseph",
+    "url": "https://liquipedia.net/tft/Broseph",
+    "total_winnings_usd": 38744,
+    "total_winnings_text": "$38,744",
+    "nationality": "Canada",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "BrosephTFT",
+    "team_now": "GodLike Esports",
+    "team_history": [
+     [
+      "2026-05-25 ~ Present",
+      "GODL (Coach)"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 23
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=broseph",
+    "worlds_career": {
+     "gp": 8,
+     "avp": 5.0,
+     "top4": 0.25,
+     "win": 0.125
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 7,
+      "current": 4,
+      "from_event": "Cyber City: Americas Tactician's Cup #2",
+      "to_event": "Cyber City: Americas Tactician's Cup #2",
+      "from_date": "2025-05-23",
+      "to_date": "2025-05-23",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Enchanted Wilds: AMER Regional Finals",
+      "to_event": "Enchanted Wilds: AMER Regional Finals",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 42,
+      "current": 17,
+      "from_event": "Cyber City: Americas Tactician's Cup #1",
+      "to_event": "Cyber City: Americas Golden Spatula",
+      "from_date": "2025-04-25",
+      "to_date": "2025-06-27",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Cambulee",
+      "vs_id": "Cambulee",
+      "lobbies": 41,
+      "finished_above": 19,
+      "avp_with": 4.12,
+      "avp_without": 4.23
+     },
+     {
+      "vs": "Deleted",
+      "vs_id": "JosueDeleted",
+      "lobbies": 40,
+      "finished_above": 24,
+      "avp_with": 4.05,
+      "avp_without": 4.25
+     },
+     {
+      "vs": "Chunington",
+      "vs_id": "Chunington",
+      "lobbies": 38,
+      "finished_above": 13,
+      "avp_with": 4.97,
+      "avp_without": 4.03
+     }
+    ],
+    "best_set": {
+     "set": 14,
+     "avp": 3.62,
+     "gp": 56
+    },
+    "placement_mix_career": [
+     55,
+     48,
+     36,
+     42,
+     49,
+     37,
+     34,
+     35
+    ],
+    "flag": "Canada"
+   },
+   "qualification": {
+    "page_q": "AMER 赛区决赛 第1",
+    "page_track": "",
+    "official_or_best": "Regional Finals AMER",
+    "liquipedia": [
+     {
+      "section": "AMER Regional Finals Top 5",
+      "note": "AMER RF #1",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "bopster": {
+   "name": "bopster",
+   "liquipedia": {
+    "page": "BOPSTER",
+    "url": "https://liquipedia.net/tft/BOPSTER",
+    "total_winnings_usd": 37855,
+    "total_winnings_text": "$37,855",
+    "nationality": "United States",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "bopster",
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 25
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=bopster",
+    "worlds_career": {
+     "gp": 14,
+     "avp": 5.29,
+     "top4": 0.357,
+     "win": 0.071
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 7,
+      "current": 2,
+      "from_event": "Cyber City: Americas Golden Spatula",
+      "to_event": "Cyber City: Americas Golden Spatula",
+      "from_date": "2025-06-27",
+      "to_date": "2025-06-27",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: Americas Tactician's Cup #3",
+      "to_event": "Magic n' Mayhem: Americas Tactician's Cup #3",
+      "from_date": "2024-10-18",
+      "to_date": "2024-10-18",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 28,
+      "current": 2,
+      "from_event": "Cyber City: Americas Golden Spatula",
+      "to_event": "K.O. Coliseum: TFT Pro Circuit - AMER Battle Academia Cup",
+      "from_date": "2025-06-27",
+      "to_date": "2025-08-29",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Cambulee",
+      "vs_id": "Cambulee",
+      "lobbies": 31,
+      "finished_above": 13,
+      "avp_with": 4.45,
+      "avp_without": 4.34
+     },
+     {
+      "vs": "ego",
+      "vs_id": "ego",
+      "lobbies": 27,
+      "finished_above": 15,
+      "avp_with": 3.48,
+      "avp_without": 4.48
+     },
+     {
+      "vs": "wasianiverson",
+      "vs_id": "wasianiverson",
+      "lobbies": 22,
+      "finished_above": 11,
+      "avp_with": 4.59,
+      "avp_without": 4.33
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 3.51,
+     "gp": 72
+    },
+    "placement_mix_career": [
+     69,
+     86,
+     44,
+     43,
+     59,
+     48,
+     39,
+     51
+    ],
+    "flag": "Canada"
+   },
+   "qualification": {
+    "page_q": "AMER 赛区决赛 第3",
+    "page_track": "",
+    "official_or_best": "Regional Finals AMER",
+    "liquipedia": [
+     {
+      "section": "AMER Regional Finals Top 5",
+      "note": "AMER RF #3",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": "国籍：Liquipedia 选手页写美国（2024-10 建页时就这么写，无出处），但 Liquipedia 两个赛事页（Set 14 美洲金铲铲冠军赛、Set 16 美洲赛区决赛）手动标了加拿大；GanglyStats 也是加拿大。没有一手来源，倾向保持加拿大"
+  },
+  "Upsetmax": {
+   "name": "Upsetmax",
+   "liquipedia": {
+    "page": "Upsetmax",
+    "url": "https://liquipedia.net/tft/Upsetmax",
+    "total_winnings_usd": 25407,
+    "total_winnings_text": "$25,407",
+    "nationality": "Canada",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "Max Chen",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": "Final Lobby Gaming",
+    "team_history": [
+     [
+      "2021-02-?? ~ 2022-08-??",
+      "Cloud9 (TG Esports Coach)"
+     ],
+     [
+      "2022-08-?? ~ 2025-08-01",
+      "TG (Head TFT Coach)"
+     ],
+     [
+      "2026-07-07 ~ Present",
+      "Final Lobby Gaming"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 28
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=upsetmax",
+    "worlds_career": {
+     "gp": 13,
+     "avp": 4.38,
+     "top4": 0.538,
+     "win": 0.077
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 6,
+      "current": 2,
+      "from_event": "Cyber City: Americas Tactician's Cup #2",
+      "to_event": "Cyber City: Americas Tactician's Cup #3",
+      "from_date": "2025-05-23",
+      "to_date": "2025-06-20",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Space Gods: AMER Regional Finals",
+      "to_event": "Space Gods: AMER Regional Finals",
+      "from_date": "2026-06-26",
+      "to_date": "2026-06-26",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 38,
+      "current": 8,
+      "from_event": "Enchanted Wilds: TFT Pro Circuit - AMER Riftbeast Cup",
+      "to_event": "Enchanted Wilds: AMER Regional Finals",
+      "from_date": "2026-09-04",
+      "to_date": "2026-10-23",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Cambulee",
+      "vs_id": "Cambulee",
+      "lobbies": 34,
+      "finished_above": 18,
+      "avp_with": 3.65,
+      "avp_without": 4.36
+     },
+     {
+      "vs": "Chunington",
+      "vs_id": "Chunington",
+      "lobbies": 30,
+      "finished_above": 15,
+      "avp_with": 3.8,
+      "avp_without": 4.29
+     },
+     {
+      "vs": "Dishsoap",
+      "vs_id": "Dishsoap",
+      "lobbies": 29,
+      "finished_above": 15,
+      "avp_with": 3.66,
+      "avp_without": 4.33
+     }
+    ],
+    "best_set": {
+     "set": 11,
+     "avp": 3.87,
+     "gp": 30
+    },
+    "placement_mix_career": [
+     47,
+     46,
+     39,
+     37,
+     28,
+     41,
+     31,
+     39
+    ],
+    "flag": ""
+   },
+   "qualification": {
+    "page_q": "AMER 赛区决赛 第4",
+    "page_track": "",
+    "official_or_best": "Regional Finals AMER",
+    "liquipedia": [
+     {
+      "section": "AMER Regional Finals Top 5",
+      "note": "AMER RF #4",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "ego": {
+   "name": "ego",
+   "liquipedia": {
+    "page": "Ego illusions",
+    "url": "https://liquipedia.net/tft/Ego_illusions",
+    "total_winnings_usd": 37195,
+    "total_winnings_text": "$37,195",
+    "nationality": "Brazil",
+    "born": "1994-05-14",
+    "age_on_crown_day1": 32,
+    "real_name": "Heitor Henrique Lemos",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "ego",
+    "team_now": null,
+    "team_history": [
+     [
+      "2021-01-28 ~ 2023-05-15",
+      "Blake Esports"
+     ],
+     [
+      "2023-07-14 ~ 2023-??-??",
+      "Tempo e-Sports"
+     ],
+     [
+      "2024-06-04 ~ 2025-12-29",
+      "Team Liquid"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 26
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=egoillusions",
+    "worlds_career": {
+     "gp": 18,
+     "avp": 4.5,
+     "top4": 0.556,
+     "win": 0.111
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 9,
+      "current": 0,
+      "from_event": "Into the Arcane: Americas Tactician's Cup #1",
+      "to_event": "Into the Arcane: Americas Tactician's Cup #1",
+      "from_date": "2025-01-17",
+      "to_date": "2025-01-17",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: Americas Golden Spatula",
+      "to_event": "Magic n' Mayhem: Americas Golden Spatula",
+      "from_date": "2024-11-01",
+      "to_date": "2024-11-01",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 37,
+      "current": 27,
+      "from_event": "Inkborn Fables: Americas Golden Spatula",
+      "to_event": "Magic n' Mayhem: Americas Tactician's Cup #2",
+      "from_date": "2024-07-05",
+      "to_date": "2024-09-20",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Cambulee",
+      "vs_id": "Cambulee",
+      "lobbies": 32,
+      "finished_above": 15,
+      "avp_with": 4.91,
+      "avp_without": 4.13
+     },
+     {
+      "vs": "bopster",
+      "vs_id": "bopster",
+      "lobbies": 27,
+      "finished_above": 12,
+      "avp_with": 4.04,
+      "avp_without": 4.29
+     },
+     {
+      "vs": "Broseph",
+      "vs_id": "Broseph",
+      "lobbies": 20,
+      "finished_above": 7,
+      "avp_with": 4.4,
+      "avp_without": 4.24
+     }
+    ],
+    "best_set": {
+     "set": 13,
+     "avp": 3.77,
+     "gp": 35
+    },
+    "placement_mix_career": [
+     50,
+     43,
+     48,
+     53,
+     48,
+     37,
+     36,
+     35
+    ],
+    "flag": "Brazil"
+   },
+   "qualification": {
+    "page_q": "AMER 赛区决赛 第5",
+    "page_track": "",
+    "official_or_best": "Regional Finals AMER",
+    "liquipedia": [
+     {
+      "section": "AMER Regional Finals Top 5",
+      "note": "AMER RF #5",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "JosueDeleted": {
+   "name": "Deleted",
+   "liquipedia": {
+    "page": "JosueDeleted",
+    "url": "https://liquipedia.net/tft/JosueDeleted",
+    "total_winnings_usd": 16372,
+    "total_winnings_text": "$16,372",
+    "nationality": "Peru",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "Josué Daniel Delgado Valle",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "Deleted",
+    "team_now": "Team Majoris",
+    "team_history": [
+     [
+      "2023-10-15 ~ 2024-04-01",
+      "Mad Kings Esports"
+     ],
+     [
+      "2024-11-20 ~ 2025-08-30",
+      "STR Nova"
+     ],
+     [
+      "2025-11-21 ~ Present",
+      "Team Majoris"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 29
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=deleted",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 7,
+      "current": 0,
+      "from_event": "Cyber City: Americas Tactician's Cup #1",
+      "to_event": "Cyber City: Americas Tactician's Cup #1",
+      "from_date": "2025-04-25",
+      "to_date": "2025-04-25",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Lore & Legends: AMER Regional Finals",
+      "to_event": "Lore & Legends: AMER Regional Finals",
+      "from_date": "2026-03-06",
+      "to_date": "2026-03-06",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 21,
+      "current": 4,
+      "from_event": "Cyber City: Americas Tactician's Cup #1",
+      "to_event": "Cyber City: Americas Tactician's Cup #3",
+      "from_date": "2025-04-25",
+      "to_date": "2025-06-20",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "wasianiverson",
+      "vs_id": "wasianiverson",
+      "lobbies": 43,
+      "finished_above": 17,
+      "avp_with": 4.63,
+      "avp_without": 4.48
+     },
+     {
+      "vs": "Broseph",
+      "vs_id": "Broseph",
+      "lobbies": 40,
+      "finished_above": 16,
+      "avp_with": 4.55,
+      "avp_without": 4.5
+     },
+     {
+      "vs": "Chunington",
+      "vs_id": "Chunington",
+      "lobbies": 36,
+      "finished_above": 14,
+      "avp_with": 4.83,
+      "avp_without": 4.45
+     }
+    ],
+    "best_set": {
+     "set": 15,
+     "avp": 3.51,
+     "gp": 47
+    },
+    "placement_mix_career": [
+     44,
+     31,
+     32,
+     31,
+     35,
+     44,
+     24,
+     35
+    ],
+    "flag": "Peru"
+   },
+   "qualification": {
+    "page_q": "AMER 赛区决赛 第6",
+    "page_track": "",
+    "official_or_best": "Regional Finals AMER",
+    "liquipedia": [
+     {
+      "section": "AMER Regional Finals Top 5",
+      "note": "AMER RF #6",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Dishsoap": {
+   "name": "Dishsoap",
+   "liquipedia": {
+    "page": "Dishsoap",
+    "url": "https://liquipedia.net/tft/Dishsoap",
+    "total_winnings_usd": 400121,
+    "total_winnings_text": "$400,121",
+    "nationality": "United States",
+    "born": "2001-06-26",
+    "age_on_crown_day1": 25,
+    "real_name": "Joseph Goldsmith",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": "Academy",
+    "team_history": [
+     [
+      "2023-11-17 ~ 2024-??-??",
+      "Disguised"
+     ],
+     [
+      "2024-05-11 ~ 2024-08-17",
+      "Fnatic"
+     ],
+     [
+      "2025-05-15 ~ 2025-12-31",
+      "100 Thieves"
+     ],
+     [
+      "2026-02-13 ~ Present",
+      "Academy"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 2
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=dishsoap",
+    "worlds_career": {
+     "gp": 79,
+     "avp": 4.0,
+     "top4": 0.608,
+     "win": 0.203
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 20,
+      "current": 0,
+      "from_event": "Into the Arcane: Americas Tactician's Cup #2",
+      "to_event": "Into the Arcane: Americas Golden Spatula",
+      "from_date": "2025-02-14",
+      "to_date": "2025-02-28",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": 1
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: Americas Tactician's Cup #2",
+      "to_event": "Magic n' Mayhem: Americas Tactician's Cup #2",
+      "from_date": "2024-09-20",
+      "to_date": "2024-09-20",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 31,
+      "current": 25,
+      "from_event": "Inkborn Fables: Americas Tactician's Cup #3",
+      "to_event": "Magic n' Mayhem: Americas Tactician's Cup #2",
+      "from_date": "2024-06-21",
+      "to_date": "2024-09-20",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "wasianiverson",
+      "vs_id": "wasianiverson",
+      "lobbies": 51,
+      "finished_above": 25,
+      "avp_with": 3.76,
+      "avp_without": 3.89
+     },
+     {
+      "vs": "Chunington",
+      "vs_id": "Chunington",
+      "lobbies": 46,
+      "finished_above": 24,
+      "avp_with": 3.57,
+      "avp_without": 3.93
+     },
+     {
+      "vs": "Cambulee",
+      "vs_id": "Cambulee",
+      "lobbies": 43,
+      "finished_above": 26,
+      "avp_with": 4.07,
+      "avp_without": 3.83
+     }
+    ],
+    "best_set": {
+     "set": 13,
+     "avp": 3.04,
+     "gp": 67
+    },
+    "placement_mix_career": [
+     83,
+     75,
+     59,
+     68,
+     48,
+     52,
+     37,
+     33
+    ],
+    "flag": "United States"
+   },
+   "qualification": {
+    "page_q": "AMER 积分第一",
+    "page_track": "",
+    "official_or_best": "Pro Points AMER 第一",
+    "liquipedia": [
+     {
+      "section": "TPC Pro Point Winners",
+      "note": "AMER PP",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [
+    {
+     "set": 10,
+     "ganglystats": 20,
+     "liquipedia": 21
+    }
+   ],
+   "notes": "Set 10 世界赛应为第 21（Liquipedia 奖金表第 21 格 $5,000；Esports Earnings 也记 21st）。GanglyStats 记 20 是因为它把 bio（bio1uc，实际第 14）排到了第 32，后面的人整体前移一位"
+  },
+  "wigwugg": {
+   "name": "wigwugg",
+   "liquipedia": {
+    "page": "Wigwugg",
+    "url": "https://liquipedia.net/tft/Wigwugg",
+    "total_winnings_usd": 11650,
+    "total_winnings_text": "$11,650",
+    "nationality": "Canada",
+    "born": "2006",
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": "Final Lobby Gaming",
+    "team_history": [
+     [
+      "2026-07-13 ~ Present",
+      "Final Lobby Gaming"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 34
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=wigwugg",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 9,
+      "current": 0,
+      "from_event": "Enchanted Wilds: TFT Pro Circuit - EMEA Elderwood Cup",
+      "to_event": "Enchanted Wilds: TFT Pro Circuit - EMEA Elderwood Cup",
+      "from_date": "2026-09-18",
+      "to_date": "2026-09-18",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Lore & Legends: AMER Regional Finals",
+      "to_event": "Lore & Legends: AMER Regional Finals",
+      "from_date": "2026-03-06",
+      "to_date": "2026-03-06",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 23,
+      "current": 6,
+      "from_event": "Enchanted Wilds: TFT Pro Circuit - EMEA Elderwood Cup",
+      "to_event": "Enchanted Wilds: TFT Pro Circuit - AMER Blossom Cup",
+      "from_date": "2026-09-18",
+      "to_date": "2026-10-02",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "wasianiverson",
+      "vs_id": "wasianiverson",
+      "lobbies": 31,
+      "finished_above": 10,
+      "avp_with": 5.06,
+      "avp_without": 4.3
+     },
+     {
+      "vs": "Dishsoap",
+      "vs_id": "Dishsoap",
+      "lobbies": 27,
+      "finished_above": 10,
+      "avp_with": 4.52,
+      "avp_without": 4.5
+     },
+     {
+      "vs": "Cambulee",
+      "vs_id": "Cambulee",
+      "lobbies": 21,
+      "finished_above": 10,
+      "avp_with": 4.24,
+      "avp_without": 4.56
+     }
+    ],
+    "best_set": {
+     "set": 16,
+     "avp": 3.7,
+     "gp": 37
+    },
+    "placement_mix_career": [
+     29,
+     23,
+     24,
+     25,
+     17,
+     26,
+     25,
+     18
+    ],
+    "flag": "Canada"
+   },
+   "qualification": {
+    "page_q": "Elderwood Cup 冠军",
+    "page_track": "",
+    "official_or_best": "Elderwood Cup EMEA Home Cup",
+    "liquipedia": [
+     {
+      "section": "TPC Elderwood Cup Winners",
+      "note": "EMEA Cup",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": {
+     "q": "EMEA Elderwood Cup 冠军",
+     "why": "Riot 官方名单：Elderwood Cup EMEA Home Cup（这届 Elderwood Cup 是美洲和欧洲合打，他拿的是 EMEA 那一侧的名额）"
+    },
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Cambulee": {
+   "name": "Cambulee",
+   "liquipedia": {
+    "page": "Cambulee",
+    "url": "https://liquipedia.net/tft/Cambulee",
+    "total_winnings_usd": 70090,
+    "total_winnings_text": "$70,090",
+    "nationality": "United States",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": "Final Lobby Gaming",
+    "team_history": [
+     [
+      "2026-04-09 ~ 2026-05-31",
+      "Isurus"
+     ],
+     [
+      "2026-07-13 ~ Present",
+      "Final Lobby Gaming"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 15
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=cambulee",
+    "worlds_career": {
+     "gp": 35,
+     "avp": 4.69,
+     "top4": 0.457,
+     "win": 0.086
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 9,
+      "current": 3,
+      "from_event": "Into the Arcane: Americas Golden Spatula",
+      "to_event": "Cyber City: Americas Tactician's Cup #1",
+      "from_date": "2025-02-28",
+      "to_date": "2025-04-25",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 1,
+      "from_event": "Into the Arcane: Americas Tactician's Cup #1",
+      "to_event": "Into the Arcane: Americas Tactician's Cup #1",
+      "from_date": "2025-01-17",
+      "to_date": "2025-01-17",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 41,
+      "current": 5,
+      "from_event": "Lore & Legends: AMER Regional Finals",
+      "to_event": "Space Gods: TFT Pro Circuit - EMEA Dark Star Cup",
+      "from_date": "2026-03-06",
+      "to_date": "2026-05-22",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Chunington",
+      "vs_id": "Chunington",
+      "lobbies": 50,
+      "finished_above": 27,
+      "avp_with": 3.94,
+      "avp_without": 4.05
+     },
+     {
+      "vs": "Dishsoap",
+      "vs_id": "Dishsoap",
+      "lobbies": 43,
+      "finished_above": 17,
+      "avp_with": 3.91,
+      "avp_without": 4.06
+     },
+     {
+      "vs": "Broseph",
+      "vs_id": "Broseph",
+      "lobbies": 41,
+      "finished_above": 22,
+      "avp_with": 3.8,
+      "avp_without": 4.07
+     }
+    ],
+    "best_set": {
+     "set": 13,
+     "avp": 3.86,
+     "gp": 42
+    },
+    "placement_mix_career": [
+     61,
+     64,
+     61,
+     58,
+     49,
+     49,
+     45,
+     34
+    ],
+    "flag": "United States"
+   },
+   "qualification": {
+    "page_q": "AMER Blossom Cup 冠军",
+    "page_track": "",
+    "official_or_best": "Blossom Cup AMER",
+    "liquipedia": [
+     {
+      "section": "TPC Blossom Cup Winners",
+      "note": "AMER Cup",
+      "slot_passed_down": false
+     },
+     {
+      "section": "AMER Regional Finals Top 5",
+      "note": "{{Abbr/AQ}}",
+      "slot_passed_down": true
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": true
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Chunington": {
+   "name": "Chunington",
+   "liquipedia": {
+    "page": "Chunington",
+    "url": "https://liquipedia.net/tft/Chunington",
+    "total_winnings_usd": 31166,
+    "total_winnings_text": "$31,166",
+    "nationality": "United States",
+    "born": "2004-01-17",
+    "age_on_crown_day1": 22,
+    "real_name": "Austin Chun",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": "Final Lobby Gaming",
+    "team_history": [
+     [
+      "2026-03-05 ~ 2026-04-09",
+      "Final Lobby Gaming"
+     ],
+     [
+      "2026-04-09 ~ 2026-05-31",
+      "› Isurus (Loan)"
+     ],
+     [
+      "2026-05-31 ~ Present",
+      "Final Lobby Gaming"
+     ]
+    ],
+    "years_active": null,
+    "status": null,
+    "note": null,
+    "winnings_rank_of_40": 27
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=chunington",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 9,
+      "current": 1,
+      "from_event": "Space Gods: TFT Pro Circuit - EMEA Dark Star Cup",
+      "to_event": "Space Gods: TFT Pro Circuit - EMEA Dark Star Cup",
+      "from_date": "2026-05-22",
+      "to_date": "2026-05-22",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: Americas Tactician's Cup #3",
+      "to_event": "Magic n' Mayhem: Americas Tactician's Cup #3",
+      "from_date": "2024-10-18",
+      "to_date": "2024-10-18",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 36,
+      "current": 4,
+      "from_event": "Lore & Legends: TPC - AMER Shurima Cup",
+      "to_event": "Lore & Legends: TPC - AMER Demacia Cup",
+      "from_date": "2026-01-09",
+      "to_date": "2026-02-13",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "wasianiverson",
+      "vs_id": "wasianiverson",
+      "lobbies": 62,
+      "finished_above": 28,
+      "avp_with": 4.32,
+      "avp_without": 4.14
+     },
+     {
+      "vs": "Cambulee",
+      "vs_id": "Cambulee",
+      "lobbies": 50,
+      "finished_above": 23,
+      "avp_with": 4.18,
+      "avp_without": 4.18
+     },
+     {
+      "vs": "Dishsoap",
+      "vs_id": "Dishsoap",
+      "lobbies": 46,
+      "finished_above": 22,
+      "avp_with": 3.67,
+      "avp_without": 4.29
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 3.79,
+     "gp": 66
+    },
+    "placement_mix_career": [
+     58,
+     40,
+     44,
+     41,
+     33,
+     42,
+     30,
+     39
+    ],
+    "flag": "United States"
+   },
+   "qualification": {
+    "page_q": "AMER Elderwood Cup 冠军",
+    "page_track": "",
+    "official_or_best": "Elderwood Cup AMER Home Cup",
+    "liquipedia": [
+     {
+      "section": "TPC Elderwood Cup Winners",
+      "note": "AMER Cup",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "wasianiverson": {
+   "name": "wasianiverson",
+   "liquipedia": {
+    "page": "Wasianiverson",
+    "url": "https://liquipedia.net/tft/Wasianiverson",
+    "total_winnings_usd": 146100,
+    "total_winnings_text": "$146,100",
+    "nationality": "Canada",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "Nicholas Faust",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": "Academy",
+    "team_history": [
+     [
+      "2024-05-03 ~ 2024-12-31",
+      "Fnatic"
+     ],
+     [
+      "2026-02-21 ~ Present",
+      "Academy"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 8
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=wasianiverson",
+    "worlds_career": {
+     "gp": 79,
+     "avp": 4.46,
+     "top4": 0.532,
+     "win": 0.114
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 9,
+      "current": 0,
+      "from_event": "Cyber City: Americas Tactician's Cup #2",
+      "to_event": "Cyber City: Americas Tactician's Cup #2",
+      "from_date": "2025-05-23",
+      "to_date": "2025-05-23",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: Americas Tactician's Cup #1",
+      "to_event": "Magic n' Mayhem: Americas Tactician's Cup #1",
+      "from_date": "2024-08-23",
+      "to_date": "2024-08-23",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 44,
+      "current": 14,
+      "from_event": "Cyber City: Americas Tactician's Cup #2",
+      "to_event": "Cyber City: Americas Golden Spatula",
+      "from_date": "2025-05-23",
+      "to_date": "2025-06-27",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Chunington",
+      "vs_id": "Chunington",
+      "lobbies": 62,
+      "finished_above": 34,
+      "avp_with": 3.81,
+      "avp_without": 3.93
+     },
+     {
+      "vs": "Dishsoap",
+      "vs_id": "Dishsoap",
+      "lobbies": 51,
+      "finished_above": 26,
+      "avp_with": 3.88,
+      "avp_without": 3.91
+     },
+     {
+      "vs": "Deleted",
+      "vs_id": "JosueDeleted",
+      "lobbies": 43,
+      "finished_above": 26,
+      "avp_with": 3.51,
+      "avp_without": 3.97
+     }
+    ],
+    "best_set": {
+     "set": 14,
+     "avp": 3.63,
+     "gp": 79
+    },
+    "placement_mix_career": [
+     105,
+     92,
+     74,
+     47,
+     52,
+     59,
+     62,
+     48
+    ],
+    "flag": "Canada"
+   },
+   "qualification": {
+    "page_q": "AMER Riftbeast Cup 冠军",
+    "page_track": "",
+    "official_or_best": "Riftbeast Cup AMER",
+    "liquipedia": [
+     {
+      "section": "TPC Riftbeast Cup Winners",
+      "note": "AMER Cup",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "L3SCoco": {
+   "name": "L3S Coco",
+   "liquipedia": {
+    "page": "L3SCoco",
+    "url": "https://liquipedia.net/tft/L3SCoco",
+    "total_winnings_usd": 105600,
+    "total_winnings_text": "$105,600",
+    "nationality": "France",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "Mathieu Nencioni",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "Les collègues",
+    "team_now": "Gentle Mates",
+    "team_history": [
+     [
+      "2022-04-28 ~ 2022-12-28",
+      "Solary"
+     ],
+     [
+      "2023-09-03 ~ Present",
+      "Gentle Mates"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 10
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=l3scoco",
+    "worlds_career": {
+     "gp": 45,
+     "avp": 4.62,
+     "top4": 0.489,
+     "win": 0.044
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 10,
+      "current": 2,
+      "from_event": "Into the Arcane: EMEA Tactician's Cup #2",
+      "to_event": "Into the Arcane: EMEA Tactician's Cup #2",
+      "from_date": "2025-02-14",
+      "to_date": "2025-02-14",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 4,
+      "current": 1,
+      "from_event": "Into the Arcane: EMEA Tactician's Cup #1",
+      "to_event": "Into the Arcane: EMEA Tactician's Cup #1",
+      "from_date": "2025-01-17",
+      "to_date": "2025-01-17",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": 7
+     },
+     "no8": {
+      "best": 50,
+      "current": 2,
+      "from_event": "Cyber City: EMEA Tactician's Cup #1",
+      "to_event": "Cyber City: EMEA Golden Spatula",
+      "from_date": "2025-04-25",
+      "to_date": "2025-06-27",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "whyyoumadpro",
+      "vs_id": "whyyoumadpro",
+      "lobbies": 41,
+      "finished_above": 13,
+      "avp_with": 4.9,
+      "avp_without": 4.17
+     },
+     {
+      "vs": "ZyK0o",
+      "vs_id": "ZyK0o",
+      "lobbies": 31,
+      "finished_above": 14,
+      "avp_with": 5.23,
+      "avp_without": 4.15
+     },
+     {
+      "vs": "Bensac",
+      "vs_id": "bensac",
+      "lobbies": 30,
+      "finished_above": 14,
+      "avp_with": 3.77,
+      "avp_without": 4.43
+     }
+    ],
+    "best_set": {
+     "set": 13,
+     "avp": 3.29,
+     "gp": 63
+    },
+    "placement_mix_career": [
+     81,
+     71,
+     60,
+     60,
+     61,
+     51,
+     48,
+     41
+    ],
+    "flag": "France"
+   },
+   "qualification": {
+    "page_q": "EMEA 赛区决赛 第1",
+    "page_track": "",
+    "official_or_best": "Regional Finals EMEA",
+    "liquipedia": [
+     {
+      "section": "EMEA Regional Finals Top 5",
+      "note": "EMEA RF #1",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Yakumo": {
+   "name": "Yakumo",
+   "liquipedia": {
+    "page": "Yatora",
+    "url": "https://liquipedia.net/tft/Yatora",
+    "total_winnings_usd": 12297,
+    "total_winnings_text": "$12,297",
+    "nationality": "Kyrgyzstan",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "yakumomurai, yatora",
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 33
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=yakumomurai",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 6,
+      "current": 0,
+      "from_event": "Cyber City: EMEA Tactician's Cup #2",
+      "to_event": "Cyber City: EMEA Tactician's Cup #2",
+      "from_date": "2025-05-23",
+      "to_date": "2025-05-23",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Space Gods: EMEA Regional Finals",
+      "to_event": "Space Gods: EMEA Regional Finals",
+      "from_date": "2026-06-26",
+      "to_date": "2026-06-26",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 26,
+      "current": 12,
+      "from_event": "Cyber City: EMEA Tactician's Cup #1",
+      "to_event": "Cyber City: EMEA Tactician's Cup #2",
+      "from_date": "2025-04-25",
+      "to_date": "2025-05-23",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "whyyoumadpro",
+      "vs_id": "whyyoumadpro",
+      "lobbies": 28,
+      "finished_above": 18,
+      "avp_with": 3.89,
+      "avp_without": 4.04
+     },
+     {
+      "vs": "Bensac",
+      "vs_id": "bensac",
+      "lobbies": 26,
+      "finished_above": 12,
+      "avp_with": 4.15,
+      "avp_without": 3.94
+     },
+     {
+      "vs": "L3S Coco",
+      "vs_id": "L3SCoco",
+      "lobbies": 25,
+      "finished_above": 13,
+      "avp_with": 3.56,
+      "avp_without": 4.15
+     }
+    ],
+    "best_set": {
+     "set": 17,
+     "avp": 3.75,
+     "gp": 57
+    },
+    "placement_mix_career": [
+     37,
+     45,
+     47,
+     29,
+     36,
+     27,
+     30,
+     25
+    ],
+    "flag": "Kyrgyzstan"
+   },
+   "qualification": {
+    "page_q": "EMEA 赛区决赛 第2",
+    "page_track": "",
+    "official_or_best": "Regional Finals EMEA",
+    "liquipedia": [
+     {
+      "section": "EMEA Regional Finals Top 5",
+      "note": "EMEA RF #2",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Cynarr": {
+   "name": "Cynarr",
+   "liquipedia": {
+    "page": "Cynar",
+    "url": "https://liquipedia.net/tft/Cynar",
+    "total_winnings_usd": 12300,
+    "total_winnings_text": "$12,300",
+    "nationality": "Turkey",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "Cynarr",
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 32
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=cynar",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 5,
+      "current": 2,
+      "from_event": "Rising Legends: Inkborn Fables - Golden Spatula Cup #1",
+      "to_event": "Rising Legends: Inkborn Fables - Golden Spatula Cup #2",
+      "from_date": "2024-04-26",
+      "to_date": "2024-05-24",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Rising Legends: Inkborn Fables - Golden Spatula Cup #1",
+      "to_event": "Rising Legends: Inkborn Fables - Golden Spatula Cup #1",
+      "from_date": "2024-04-26",
+      "to_date": "2024-04-26",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 32,
+      "current": 15,
+      "from_event": "Rising Legends: Inkborn Fables - Golden Spatula Cup #2",
+      "to_event": "Magic n' Mayhem: EMEA Tactician's Cup #1",
+      "from_date": "2024-05-24",
+      "to_date": "2024-08-23",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": null,
+    "best_set": {
+     "set": 18,
+     "avp": 3.68,
+     "gp": 44
+    },
+    "placement_mix_career": [
+     33,
+     32,
+     29,
+     23,
+     23,
+     27,
+     26,
+     18
+    ],
+    "flag": "Turkey"
+   },
+   "qualification": {
+    "page_q": "EMEA 赛区决赛 第4",
+    "page_track": "",
+    "official_or_best": "Regional Finals EMEA",
+    "liquipedia": [
+     {
+      "section": "EMEA Regional Finals Top 5",
+      "note": "EMEA RF #4",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "oskuu": {
+   "name": "oskuu",
+   "liquipedia": {
+    "page": "Oskuu",
+    "url": "https://liquipedia.net/tft/Oskuu",
+    "total_winnings_usd": 3362,
+    "total_winnings_text": "$3,362",
+    "nationality": "Finland",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 38
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=oskuu",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 4,
+      "current": 0,
+      "from_event": "Enchanted Wilds: EMEA Regional Finals",
+      "to_event": "Enchanted Wilds: EMEA Regional Finals",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Enchanted Wilds: EMEA Regional Finals",
+      "to_event": "Enchanted Wilds: EMEA Regional Finals",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 16,
+      "current": 16,
+      "from_event": "Enchanted Wilds: EMEA Regional Finals",
+      "to_event": "Enchanted Wilds: EMEA Regional Finals",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": null,
+    "best_set": {
+     "set": 17,
+     "avp": 4.04,
+     "gp": 27
+    },
+    "placement_mix_career": [
+     14,
+     14,
+     18,
+     11,
+     8,
+     13,
+     14,
+     9
+    ],
+    "flag": "Finland"
+   },
+   "qualification": {
+    "page_q": "EMEA 赛区决赛 第5",
+    "page_track": "",
+    "official_or_best": "Regional Finals EMEA",
+    "liquipedia": [
+     {
+      "section": "EMEA Regional Finals Top 5",
+      "note": "EMEA RF #5",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "whyyoumadpro": {
+   "name": "whyyoumadpro",
+   "liquipedia": {
+    "page": "Whyyoumadpro",
+    "url": "https://liquipedia.net/tft/Whyyoumadpro",
+    "total_winnings_usd": 14760,
+    "total_winnings_text": "$14,760",
+    "nationality": "Germany",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 31
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=whyyoumadpro",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 11,
+      "current": 1,
+      "from_event": "Space Gods: TFT Pro Circuit - EMEA Stargazer Cup",
+      "to_event": "Space Gods: TFT Pro Circuit - EMEA Stargazer Cup",
+      "from_date": "2026-05-08",
+      "to_date": "2026-05-08",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Space Gods: EMEA Regional Finals",
+      "to_event": "Space Gods: EMEA Regional Finals",
+      "from_date": "2026-06-26",
+      "to_date": "2026-06-26",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 38,
+      "current": 3,
+      "from_event": "Cyber City: EMEA Tactician's Cup #3",
+      "to_event": "Lore & Legends: EMEA Regional Finals",
+      "from_date": "2025-06-20",
+      "to_date": "2026-03-06",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "L3S Coco",
+      "vs_id": "L3SCoco",
+      "lobbies": 41,
+      "finished_above": 28,
+      "avp_with": 3.83,
+      "avp_without": 4.32
+     },
+     {
+      "vs": "ZyK0o",
+      "vs_id": "ZyK0o",
+      "lobbies": 32,
+      "finished_above": 16,
+      "avp_with": 3.62,
+      "avp_without": 4.33
+     },
+     {
+      "vs": "Bensac",
+      "vs_id": "bensac",
+      "lobbies": 28,
+      "finished_above": 15,
+      "avp_with": 4.54,
+      "avp_without": 4.12
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 4.06,
+     "gp": 66
+    },
+    "placement_mix_career": [
+     21,
+     35,
+     28,
+     46,
+     25,
+     26,
+     23,
+     15
+    ],
+    "flag": "Germany"
+   },
+   "qualification": {
+    "page_q": "EMEA 赛区决赛 第6",
+    "page_track": "",
+    "official_or_best": "Regional Finals EMEA",
+    "liquipedia": [
+     {
+      "section": "EMEA Regional Finals Top 5",
+      "note": "EMEA RF #6",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "bensac": {
+   "name": "Bensac",
+   "liquipedia": {
+    "page": "Bensac",
+    "url": "https://liquipedia.net/tft/Bensac",
+    "total_winnings_usd": 62941,
+    "total_winnings_text": "$62,941",
+    "nationality": "France",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "Alexandre Mokhefi",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": "Mihos eSport",
+    "team_history": [
+     [
+      "2023-04-19 ~ 2025-05-14",
+      "Oslow Esport"
+     ],
+     [
+      "2025-05-14 ~ 2025-08-24",
+      "Fnatic"
+     ],
+     [
+      "2025-08-24 ~ Present",
+      "Mihos eSport"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 16
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=bensac",
+    "worlds_career": {
+     "gp": 39,
+     "avp": 4.46,
+     "top4": 0.462,
+     "win": 0.154
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 7,
+      "current": 0,
+      "from_event": "Into the Arcane: EMEA Tactician's Cup #2",
+      "to_event": "Into the Arcane: EMEA Tactician's Cup #2",
+      "from_date": "2025-02-14",
+      "to_date": "2025-02-14",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Rising Legends: Inkborn Fables - Golden Spatula Cup #1",
+      "to_event": "Rising Legends: Inkborn Fables - Golden Spatula Cup #1",
+      "from_date": "2024-04-26",
+      "to_date": "2024-04-26",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 35,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: EMEA Golden Spatula",
+      "to_event": "Into the Arcane: EMEA Golden Spatula",
+      "from_date": "2024-11-01",
+      "to_date": "2025-02-28",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "L3S Coco",
+      "vs_id": "L3SCoco",
+      "lobbies": 30,
+      "finished_above": 16,
+      "avp_with": 3.83,
+      "avp_without": 4.16
+     },
+     {
+      "vs": "ZyK0o",
+      "vs_id": "ZyK0o",
+      "lobbies": 28,
+      "finished_above": 21,
+      "avp_with": 3.14,
+      "avp_without": 4.29
+     },
+     {
+      "vs": "whyyoumadpro",
+      "vs_id": "whyyoumadpro",
+      "lobbies": 28,
+      "finished_above": 13,
+      "avp_with": 4.25,
+      "avp_without": 4.07
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 3.62,
+     "gp": 63
+    },
+    "placement_mix_career": [
+     55,
+     73,
+     54,
+     56,
+     57,
+     39,
+     32,
+     41
+    ],
+    "flag": "France"
+   },
+   "qualification": {
+    "page_q": "EMEA 积分第一",
+    "page_track": "",
+    "official_or_best": "Pro Points EMEA 第一",
+    "liquipedia": [
+     {
+      "section": "TPC Pro Point Winners",
+      "note": "EMEA PP",
+      "slot_passed_down": false
+     },
+     {
+      "section": "EMEA Regional Finals Top 5",
+      "note": "{{Abbr/AQ}}",
+      "slot_passed_down": true
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": true
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Skipaeus": {
+   "name": "Skipaeus",
+   "liquipedia": {
+    "page": "Skipaeus",
+    "url": "https://liquipedia.net/tft/Skipaeus",
+    "total_winnings_usd": 53935,
+    "total_winnings_text": "$53,935",
+    "nationality": "Czechia",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "Samuel Křišťan",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "scipaeus",
+    "team_now": null,
+    "team_history": [
+     [
+      "2024-02-?? ~ 2025-08-01",
+      "Flip Flop Esports"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 20
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=skipaeus",
+    "worlds_career": {
+     "gp": 17,
+     "avp": 3.71,
+     "top4": 0.588,
+     "win": 0.235
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 8,
+      "current": 1,
+      "from_event": "Enchanted Wilds: TFT Pro Circuit - EMEA Blossom Cup",
+      "to_event": "Enchanted Wilds: EMEA Regional Finals",
+      "from_date": "2026-10-02",
+      "to_date": "2026-10-23",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: EMEA Tactician's Cup #3",
+      "to_event": "Magic n' Mayhem: EMEA Tactician's Cup #3",
+      "from_date": "2024-10-18",
+      "to_date": "2024-10-18",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 33,
+      "current": 4,
+      "from_event": "Remix Rumble World Championship",
+      "to_event": "Magic n' Mayhem: EMEA Tactician's Cup #2",
+      "from_date": "2024-03-01",
+      "to_date": "2024-09-20",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Bensac",
+      "vs_id": "bensac",
+      "lobbies": 25,
+      "finished_above": 10,
+      "avp_with": 4.0,
+      "avp_without": 4.14
+     },
+     {
+      "vs": "Yakumo",
+      "vs_id": "Yakumo",
+      "lobbies": 24,
+      "finished_above": 13,
+      "avp_with": 3.79,
+      "avp_without": 4.21
+     },
+     {
+      "vs": "ZyK0o",
+      "vs_id": "ZyK0o",
+      "lobbies": 21,
+      "finished_above": 9,
+      "avp_with": 4.43,
+      "avp_without": 4.01
+     }
+    ],
+    "best_set": {
+     "set": 16,
+     "avp": 3.89,
+     "gp": 56
+    },
+    "placement_mix_career": [
+     57,
+     31,
+     39,
+     26,
+     35,
+     40,
+     27,
+     24
+    ],
+    "flag": "Czechia"
+   },
+   "qualification": {
+    "page_q": "EMEA Blossom Cup 冠军",
+    "page_track": "",
+    "official_or_best": "Blossom Cup EMEA",
+    "liquipedia": [
+     {
+      "section": "TPC Blossom Cup Winners",
+      "note": "EMEA Cup",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "ZyK0o": {
+   "name": "ZyK0o",
+   "liquipedia": {
+    "page": "ZyK0o",
+    "url": "https://liquipedia.net/tft/ZyK0o",
+    "total_winnings_usd": 71634,
+    "total_winnings_text": "$71,634",
+    "nationality": "France",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "Zakariya Olabi",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": "Mihos eSport",
+    "team_history": [
+     [
+      "2023-01-03 ~ Present",
+      "Mihos eSport"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 13
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=zyk0o",
+    "worlds_career": {
+     "gp": 33,
+     "avp": 4.94,
+     "top4": 0.485,
+     "win": 0.091
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 7,
+      "current": 0,
+      "from_event": "Into the Arcane: EMEA Tactician's Cup #1",
+      "to_event": "Into the Arcane: EMEA Tactician's Cup #1",
+      "from_date": "2025-01-17",
+      "to_date": "2025-01-17",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Lore & Legends: EMEA Regional Finals",
+      "to_event": "Lore & Legends: EMEA Regional Finals",
+      "from_date": "2026-03-06",
+      "to_date": "2026-03-06",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 54,
+      "current": 0,
+      "from_event": "Cyber City: EMEA Golden Spatula",
+      "to_event": "Lore & Legends: TPC - EMEA Shurima Cup",
+      "from_date": "2025-06-27",
+      "to_date": "2026-01-09",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": 7
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "whyyoumadpro",
+      "vs_id": "whyyoumadpro",
+      "lobbies": 32,
+      "finished_above": 16,
+      "avp_with": 3.62,
+      "avp_without": 4.48
+     },
+     {
+      "vs": "L3S Coco",
+      "vs_id": "L3SCoco",
+      "lobbies": 31,
+      "finished_above": 17,
+      "avp_with": 4.81,
+      "avp_without": 4.21
+     },
+     {
+      "vs": "Bensac",
+      "vs_id": "bensac",
+      "lobbies": 28,
+      "finished_above": 7,
+      "avp_with": 4.79,
+      "avp_without": 4.23
+     }
+    ],
+    "best_set": {
+     "set": 13,
+     "avp": 3.72,
+     "gp": 36
+    },
+    "placement_mix_career": [
+     46,
+     39,
+     56,
+     55,
+     43,
+     37,
+     43,
+     36
+    ],
+    "flag": "France"
+   },
+   "qualification": {
+    "page_q": "EMEA Riftbeast Cup 冠军",
+    "page_track": "",
+    "official_or_best": "Riftbeast Cup EMEA",
+    "liquipedia": [
+     {
+      "section": "TPC Riftbeast Cup Winners",
+      "note": "EMEA Cup",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Jazlatte": {
+   "name": "JazLatte",
+   "liquipedia": {
+    "page": "JazLatte",
+    "url": "https://liquipedia.net/tft/JazLatte",
+    "total_winnings_usd": 61416,
+    "total_winnings_text": "$61,416",
+    "nationality": "Taiwan",
+    "born": "1995-04-10",
+    "age_on_crown_day1": 31,
+    "real_name": null,
+    "local_id": "絕世拿鐵",
+    "nicknames": null,
+    "alternate_ids": "小鐵啊",
+    "team_now": null,
+    "team_history": [
+     [
+      "2025-02-14 ~ 2025-05-01",
+      "Al Qadsiah Esports"
+     ],
+     [
+      "2026-04-22 ~ 2026-06-30",
+      "ROC Esports"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 18
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=jazlatte",
+    "worlds_career": {
+     "gp": 36,
+     "avp": 5.36,
+     "top4": 0.361,
+     "win": 0.139
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 6,
+      "current": 2,
+      "from_event": "Lore & Legends: TPC - APAC Bilgewater Cup",
+      "to_event": "Lore & Legends: TPC - APAC Bilgewater Cup",
+      "from_date": "2026-01-30",
+      "to_date": "2026-01-30",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Inkborn Fables: APAC Tactician's Cup #1",
+      "to_event": "Inkborn Fables: APAC Tactician's Cup #1",
+      "from_date": "2024-04-26",
+      "to_date": "2024-04-26",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 34,
+      "current": 2,
+      "from_event": "Inkborn Fables: APAC Tactician's Cup #2",
+      "to_event": "Inkborn Fables: APAC Golden Spatula",
+      "from_date": "2024-05-24",
+      "to_date": "2024-07-05",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "AQ1H",
+      "vs_id": "AQ1H",
+      "lobbies": 57,
+      "finished_above": 31,
+      "avp_with": 4.3,
+      "avp_without": 4.18
+     },
+     {
+      "vs": "seoill",
+      "vs_id": "seoill",
+      "lobbies": 46,
+      "finished_above": 20,
+      "avp_with": 4.11,
+      "avp_without": 4.24
+     },
+     {
+      "vs": "Maris",
+      "vs_id": "Maris",
+      "lobbies": 43,
+      "finished_above": 22,
+      "avp_with": 3.98,
+      "avp_without": 4.27
+     }
+    ],
+    "best_set": {
+     "set": 13,
+     "avp": 3.84,
+     "gp": 37
+    },
+    "placement_mix_career": [
+     61,
+     59,
+     47,
+     46,
+     42,
+     40,
+     53,
+     44
+    ],
+    "flag": "Taiwan"
+   },
+   "qualification": {
+    "page_q": "APAC 赛区决赛 第2",
+    "page_track": "",
+    "official_or_best": "Regional Finals APAC",
+    "liquipedia": [
+     {
+      "section": "APAC Regional Finals Top 7",
+      "note": "APAC RF #2",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "AQ1H": {
+   "name": "AQ1H",
+   "liquipedia": {
+    "page": "AlphaQi",
+    "url": "https://liquipedia.net/tft/AlphaQi",
+    "total_winnings_usd": 96132,
+    "total_winnings_text": "$96,132",
+    "nationality": "Hong Kong",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "AlphaQi",
+    "team_now": "Flash Wolves",
+    "team_history": [
+     [
+      "2025-05-20 ~ 2026-03-31",
+      "FW (Coach)"
+     ],
+     [
+      "2026-03-31 ~ Present",
+      "Flash Wolves"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 11
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=aq1h",
+    "worlds_career": {
+     "gp": 38,
+     "avp": 3.95,
+     "top4": 0.579,
+     "win": 0.184
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 13,
+      "current": 1,
+      "from_event": "Lore & Legends: TPC - APAC Shurima Cup",
+      "to_event": "Lore & Legends: TPC - APAC Bilgewater Cup",
+      "from_date": "2026-01-09",
+      "to_date": "2026-01-30",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": 2
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Inkborn Fables: APAC Tactician's Cup #2",
+      "to_event": "Inkborn Fables: APAC Tactician's Cup #2",
+      "from_date": "2024-05-24",
+      "to_date": "2024-05-24",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 34,
+      "current": 11,
+      "from_event": "K.O. Coliseum: APAC Regional Finals",
+      "to_event": "Lore & Legends: TPC - APAC Bilgewater Cup",
+      "from_date": "2025-10-24",
+      "to_date": "2026-01-30",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Iron Bog",
+      "vs_id": "Iron_Bog",
+      "lobbies": 63,
+      "finished_above": 35,
+      "avp_with": 3.73,
+      "avp_without": 4.15
+     },
+     {
+      "vs": "JazLatte",
+      "vs_id": "Jazlatte",
+      "lobbies": 57,
+      "finished_above": 26,
+      "avp_with": 4.14,
+      "avp_without": 3.98
+     },
+     {
+      "vs": "seoill",
+      "vs_id": "seoill",
+      "lobbies": 46,
+      "finished_above": 20,
+      "avp_with": 3.89,
+      "avp_without": 4.06
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 3.8,
+     "gp": 64
+    },
+    "placement_mix_career": [
+     72,
+     57,
+     77,
+     50,
+     44,
+     33,
+     39,
+     43
+    ],
+    "flag": "Hong Kong"
+   },
+   "qualification": {
+    "page_q": "APAC 赛区决赛 第3",
+    "page_track": "",
+    "official_or_best": "Regional Finals APAC",
+    "liquipedia": [
+     {
+      "section": "APAC Regional Finals Top 7",
+      "note": "APAC RF #3",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Milo": {
+   "name": "Milo",
+   "liquipedia": {
+    "page": "Miloo",
+    "url": "https://liquipedia.net/tft/Miloo",
+    "total_winnings_usd": 71996,
+    "total_winnings_text": "$71,996",
+    "nationality": "Vietnam",
+    "born": "2003-08-21",
+    "age_on_crown_day1": 23,
+    "real_name": "Lê Đức Hải",
+    "local_id": "VP Milo",
+    "nicknames": null,
+    "alternate_ids": "Miloo",
+    "team_now": "Virtus.pro",
+    "team_history": [
+     [
+      "2025-04-15 ~ 2025-05-03",
+      "Tulip Esport"
+     ],
+     [
+      "2025-05-03 ~ Present",
+      "Virtus.pro"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 12
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=milo",
+    "worlds_career": {
+     "gp": 30,
+     "avp": 4.8,
+     "top4": 0.367,
+     "win": 0.1
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 7,
+      "current": 1,
+      "from_event": "Into the Arcane: APAC Golden Spatula",
+      "to_event": "Into the Arcane: APAC Golden Spatula",
+      "from_date": "2025-02-28",
+      "to_date": "2025-02-28",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Into the Arcane: APAC Tactician's Cup #2",
+      "to_event": "Into the Arcane: APAC Tactician's Cup #2",
+      "from_date": "2025-02-14",
+      "to_date": "2025-02-14",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 29,
+      "current": 11,
+      "from_event": "Lore & Legends: APAC Regional Finals",
+      "to_event": "Space Gods: TFT Pro Circuit - APAC Stargazer Cup",
+      "from_date": "2026-03-06",
+      "to_date": "2026-05-08",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "title",
+      "vs_id": "title",
+      "lobbies": 64,
+      "finished_above": 32,
+      "avp_with": 4.62,
+      "avp_without": 4.36
+     },
+     {
+      "vs": "Iron Bog",
+      "vs_id": "Iron_Bog",
+      "lobbies": 57,
+      "finished_above": 24,
+      "avp_with": 4.96,
+      "avp_without": 4.24
+     },
+     {
+      "vs": "seoill",
+      "vs_id": "seoill",
+      "lobbies": 43,
+      "finished_above": 23,
+      "avp_with": 3.84,
+      "avp_without": 4.62
+     }
+    ],
+    "best_set": {
+     "set": 13,
+     "avp": 4.13,
+     "gp": 63
+    },
+    "placement_mix_career": [
+     45,
+     44,
+     38,
+     37,
+     48,
+     44,
+     39,
+     37
+    ],
+    "flag": "Vietnam"
+   },
+   "qualification": {
+    "page_q": "APAC 赛区决赛 第4",
+    "page_track": "",
+    "official_or_best": "Regional Finals APAC",
+    "liquipedia": [
+     {
+      "section": "APAC Regional Finals Top 7",
+      "note": "APAC RF #4",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "pigpig": {
+   "name": "pigpig",
+   "liquipedia": {
+    "page": "Pigpig",
+    "url": "https://liquipedia.net/tft/Pigpig",
+    "total_winnings_usd": 6100,
+    "total_winnings_text": "$6,100",
+    "nationality": "Taiwan",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 36
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=pigpig",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 12,
+      "current": 0,
+      "from_event": "Into the Arcane: APAC Tactician's Cup #2",
+      "to_event": "Cyber City: APAC Tactician's Cup #1",
+      "from_date": "2025-02-14",
+      "to_date": "2025-04-25",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": 10
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Cyber City: APAC Tactician's Cup #1",
+      "to_event": "Cyber City: APAC Tactician's Cup #1",
+      "from_date": "2025-04-25",
+      "to_date": "2025-04-25",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 39,
+      "current": 24,
+      "from_event": "Into the Arcane: APAC Tactician's Cup #2",
+      "to_event": "Enchanted Wilds: TFT Pro Circuit - APAC Riftbeast Cup",
+      "from_date": "2025-02-14",
+      "to_date": "2026-09-04",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "seoill",
+      "vs_id": "seoill",
+      "lobbies": 24,
+      "finished_above": 8,
+      "avp_with": 4.96,
+      "avp_without": 3.86
+     },
+     {
+      "vs": "title",
+      "vs_id": "title",
+      "lobbies": 21,
+      "finished_above": 13,
+      "avp_with": 4.29,
+      "avp_without": 4.24
+     },
+     {
+      "vs": "Milo",
+      "vs_id": "Milo",
+      "lobbies": 15,
+      "finished_above": 4,
+      "avp_with": 5.2,
+      "avp_without": 3.98
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 4.3,
+     "gp": 46
+    },
+    "placement_mix_career": [
+     17,
+     12,
+     20,
+     14,
+     12,
+     13,
+     12,
+     8
+    ],
+    "flag": "Asia-Pacific"
+   },
+   "qualification": {
+    "page_q": "APAC 赛区决赛 第5",
+    "page_track": "",
+    "official_or_best": "Regional Finals APAC",
+    "liquipedia": [
+     {
+      "section": "APAC Regional Finals Top 7",
+      "note": "APAC RF #5",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "title": {
+   "name": "title",
+   "liquipedia": {
+    "page": "Title",
+    "url": "https://liquipedia.net/tft/Title",
+    "total_winnings_usd": 467092,
+    "total_winnings_text": "$467,092",
+    "nationality": "Japan",
+    "born": "2002-11-09",
+    "age_on_crown_day1": 24,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "たいとる",
+    "team_now": "ZETA DIVISION",
+    "team_history": [
+     [
+      "2024-06-03 ~ Present",
+      "ZETA DIVISION"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 1
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=title",
+    "worlds_career": {
+     "gp": 89,
+     "avp": 4.01,
+     "top4": 0.618,
+     "win": 0.202
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 13,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: APAC Golden Spatula",
+      "to_event": "Magic n' Mayhem: APAC Golden Spatula",
+      "from_date": "2024-11-01",
+      "to_date": "2024-11-01",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": 3
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Runeterra Reforged World Championship",
+      "to_event": "Runeterra Reforged World Championship",
+      "from_date": "2023-11-03",
+      "to_date": "2023-11-03",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 55,
+      "current": 3,
+      "from_event": "Magic n' Mayhem: APAC Tactician's Cup #3",
+      "to_event": "Cyber City: APAC Tactician's Cup #2",
+      "from_date": "2024-10-18",
+      "to_date": "2025-05-30",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": 5
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Milo",
+      "vs_id": "Milo",
+      "lobbies": 64,
+      "finished_above": 32,
+      "avp_with": 4.73,
+      "avp_without": 4.31
+     },
+     {
+      "vs": "Iron Bog",
+      "vs_id": "Iron_Bog",
+      "lobbies": 53,
+      "finished_above": 22,
+      "avp_with": 4.6,
+      "avp_without": 4.39
+     },
+     {
+      "vs": "seoill",
+      "vs_id": "seoill",
+      "lobbies": 53,
+      "finished_above": 22,
+      "avp_with": 4.96,
+      "avp_without": 4.26
+     }
+    ],
+    "best_set": {
+     "set": 12,
+     "avp": 3.73,
+     "gp": 109
+    },
+    "placement_mix_career": [
+     74,
+     76,
+     67,
+     72,
+     45,
+     51,
+     47,
+     49
+    ],
+    "flag": "Japan"
+   },
+   "qualification": {
+    "page_q": "APAC 赛区决赛 第6",
+    "page_track": "",
+    "official_or_best": "Regional Finals APAC",
+    "liquipedia": [
+     {
+      "section": "APAC Regional Finals Top 7",
+      "note": "APAC RF #6",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Maris": {
+   "name": "Maris",
+   "liquipedia": {
+    "page": "Maris",
+    "url": "https://liquipedia.net/tft/Maris",
+    "total_winnings_usd": 70169,
+    "total_winnings_text": "$70,169",
+    "nationality": "Vietnam",
+    "born": "2003-07-28",
+    "age_on_crown_day1": 23,
+    "real_name": "Nguyễn Dương Anh",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": "HnZ Maris",
+    "team_now": "Virtus.pro",
+    "team_history": [
+     [
+      "2025-04-15 ~ 2025-05-03",
+      "Tulip Esport"
+     ],
+     [
+      "2025-05-03 ~ Present",
+      "Virtus.pro"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 14
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=maris",
+    "worlds_career": {
+     "gp": 24,
+     "avp": 5.0,
+     "top4": 0.458,
+     "win": 0.0
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 9,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: APAC Tactician's Cup #3",
+      "to_event": "Magic n' Mayhem: APAC Golden Spatula",
+      "from_date": "2024-10-18",
+      "to_date": "2024-11-01",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Cyber City: APAC Tactician's Cup #1",
+      "to_event": "Cyber City: APAC Tactician's Cup #2",
+      "from_date": "2025-04-25",
+      "to_date": "2025-05-30",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 28,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: APAC Tactician's Cup #2",
+      "to_event": "Magic n' Mayhem: APAC Golden Spatula",
+      "from_date": "2024-09-20",
+      "to_date": "2024-11-01",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Iron Bog",
+      "vs_id": "Iron_Bog",
+      "lobbies": 53,
+      "finished_above": 26,
+      "avp_with": 4.06,
+      "avp_without": 3.92
+     },
+     {
+      "vs": "seoill",
+      "vs_id": "seoill",
+      "lobbies": 44,
+      "finished_above": 22,
+      "avp_with": 3.45,
+      "avp_without": 4.14
+     },
+     {
+      "vs": "JazLatte",
+      "vs_id": "Jazlatte",
+      "lobbies": 43,
+      "finished_above": 21,
+      "avp_with": 4.26,
+      "avp_without": 3.87
+     }
+    ],
+    "best_set": {
+     "set": 17,
+     "avp": 3.29,
+     "gp": 31
+    },
+    "placement_mix_career": [
+     61,
+     50,
+     46,
+     45,
+     41,
+     33,
+     46,
+     36
+    ],
+    "flag": ""
+   },
+   "qualification": {
+    "page_q": "APAC 赛区决赛 第7",
+    "page_track": "",
+    "official_or_best": "Regional Finals APAC",
+    "liquipedia": [
+     {
+      "section": "APAC Regional Finals Top 7",
+      "note": "APAC RF #7",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "iCeEmperoz": {
+   "name": "iCeEmperoz",
+   "liquipedia": {
+    "page": "ICeEmperoz",
+    "url": "https://liquipedia.net/tft/ICeEmperoz",
+    "total_winnings_usd": 5195,
+    "total_winnings_text": "$5,195",
+    "nationality": "Vietnam",
+    "born": "2005-11-09",
+    "age_on_crown_day1": 21,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 37
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=iceemperoz",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 7,
+      "current": 0,
+      "from_event": "Enchanted Wilds: APAC Regional Finals",
+      "to_event": "Enchanted Wilds: APAC Regional Finals",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Space Gods: APAC Regional Finals",
+      "to_event": "Space Gods: APAC Regional Finals",
+      "from_date": "2026-06-26",
+      "to_date": "2026-06-26",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 15,
+      "current": 1,
+      "from_event": "Space Gods: APAC Regional Finals",
+      "to_event": "Space Gods: APAC Regional Finals",
+      "from_date": "2026-06-26",
+      "to_date": "2026-06-26",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "seoill",
+      "vs_id": "seoill",
+      "lobbies": 24,
+      "finished_above": 7,
+      "avp_with": 4.75,
+      "avp_without": 4.26
+     },
+     {
+      "vs": "JazLatte",
+      "vs_id": "Jazlatte",
+      "lobbies": 21,
+      "finished_above": 12,
+      "avp_with": 5.1,
+      "avp_without": 4.13
+     },
+     {
+      "vs": "Maris",
+      "vs_id": "Maris",
+      "lobbies": 20,
+      "finished_above": 9,
+      "avp_with": 4.9,
+      "avp_without": 4.24
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 4.58,
+     "gp": 48
+    },
+    "placement_mix_career": [
+     11,
+     8,
+     12,
+     12,
+     9,
+     4,
+     8,
+     12
+    ],
+    "flag": ""
+   },
+   "qualification": {
+    "page_q": "APAC 赛区决赛 第8",
+    "page_track": "",
+    "official_or_best": "Regional Finals APAC",
+    "liquipedia": [
+     {
+      "section": "APAC Regional Finals Top 7",
+      "note": "APAC RF #8",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Iron_Bog": {
+   "name": "Iron Bog",
+   "liquipedia": {
+    "page": "Iron Bog",
+    "url": "https://liquipedia.net/tft/Iron_Bog",
+    "total_winnings_usd": 111625,
+    "total_winnings_text": "$111,625",
+    "nationality": "Hong Kong",
+    "born": "1998-09-19",
+    "age_on_crown_day1": 28,
+    "real_name": "張子軒",
+    "local_id": "鐵之硬沼",
+    "nicknames": null,
+    "alternate_ids": "FW Iron Bog",
+    "team_now": "Flash Wolves",
+    "team_history": [
+     [
+      "2025-03-02 ~ Present",
+      "Flash Wolves"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 9
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=ironbog",
+    "worlds_career": {
+     "gp": 57,
+     "avp": 4.88,
+     "top4": 0.474,
+     "win": 0.158
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 10,
+      "current": 0,
+      "from_event": "Into the Arcane: APAC Tactician's Cup #2",
+      "to_event": "Into the Arcane: APAC Tactician's Cup #2",
+      "from_date": "2025-02-14",
+      "to_date": "2025-02-14",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Into the Arcane: APAC Tactician's Cup #2",
+      "to_event": "Into the Arcane: APAC Tactician's Cup #2",
+      "from_date": "2025-02-14",
+      "to_date": "2025-02-14",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 44,
+      "current": 15,
+      "from_event": "Enchanted Wilds: TFT Pro Circuit - APAC Riftbeast Cup",
+      "to_event": "Enchanted Wilds: TFT Pro Circuit - APAC Blossom Cup",
+      "from_date": "2026-09-04",
+      "to_date": "2026-10-02",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "AQ1H",
+      "vs_id": "AQ1H",
+      "lobbies": 63,
+      "finished_above": 28,
+      "avp_with": 4.4,
+      "avp_without": 3.92
+     },
+     {
+      "vs": "Milo",
+      "vs_id": "Milo",
+      "lobbies": 57,
+      "finished_above": 33,
+      "avp_with": 4.16,
+      "avp_without": 4.01
+     },
+     {
+      "vs": "steppy",
+      "vs_id": "steppy",
+      "lobbies": 54,
+      "finished_above": 26,
+      "avp_with": 4.15,
+      "avp_without": 4.02
+     }
+    ],
+    "best_set": {
+     "set": 11,
+     "avp": 3.83,
+     "gp": 29
+    },
+    "placement_mix_career": [
+     85,
+     60,
+     65,
+     53,
+     41,
+     61,
+     57,
+     43
+    ],
+    "flag": ""
+   },
+   "qualification": {
+    "page_q": "APAC 积分第一",
+    "page_track": "",
+    "official_or_best": "Pro Points APAC 第一",
+    "liquipedia": [
+     {
+      "section": "TPC Pro Point Winners",
+      "note": "APAC PP",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "steppy": {
+   "name": "steppy",
+   "liquipedia": {
+    "page": "Steppy",
+    "url": "https://liquipedia.net/tft/Steppy",
+    "total_winnings_usd": 62800,
+    "total_winnings_text": "$62,800",
+    "nationality": "Singapore",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 17
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=steppy",
+    "worlds_career": {
+     "gp": 28,
+     "avp": 5.07,
+     "top4": 0.393,
+     "win": 0.036
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 10,
+      "current": 0,
+      "from_event": "Inkborn Fables: APAC Golden Spatula",
+      "to_event": "Inkborn Fables: APAC Golden Spatula",
+      "from_date": "2024-07-05",
+      "to_date": "2024-07-05",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Inkborn Fables: APAC Tactician's Cup #2",
+      "to_event": "Inkborn Fables: APAC Tactician's Cup #2",
+      "from_date": "2024-05-24",
+      "to_date": "2024-05-24",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 42,
+      "current": 16,
+      "from_event": "Space Gods: APAC Regional Finals",
+      "to_event": "Enchanted Wilds: TFT Pro Circuit - APAC Blossom Cup",
+      "from_date": "2026-06-26",
+      "to_date": "2026-10-02",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Iron Bog",
+      "vs_id": "Iron_Bog",
+      "lobbies": 54,
+      "finished_above": 28,
+      "avp_with": 4.09,
+      "avp_without": 4.4
+     },
+     {
+      "vs": "title",
+      "vs_id": "title",
+      "lobbies": 43,
+      "finished_above": 25,
+      "avp_with": 3.95,
+      "avp_without": 4.41
+     },
+     {
+      "vs": "Milo",
+      "vs_id": "Milo",
+      "lobbies": 42,
+      "finished_above": 26,
+      "avp_with": 4.02,
+      "avp_without": 4.39
+     }
+    ],
+    "best_set": {
+     "set": 11,
+     "avp": 3.72,
+     "gp": 96
+    },
+    "placement_mix_career": [
+     47,
+     69,
+     58,
+     62,
+     50,
+     30,
+     45,
+     31
+    ],
+    "flag": "Singapore"
+   },
+   "qualification": {
+    "page_q": "APAC Blossom Cup 冠军",
+    "page_track": "",
+    "official_or_best": "Blossom Cup APAC",
+    "liquipedia": [
+     {
+      "section": "TPC Blossom Cup Winners",
+      "note": "APAC Cup",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "WithoutYou": {
+   "name": "WithoutYou",
+   "liquipedia": {
+    "page": "CantWithoutYou",
+    "url": "https://liquipedia.net/tft/CantWithoutYou",
+    "total_winnings_usd": 171949,
+    "total_winnings_text": "$171,949",
+    "nationality": "Taiwan",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": "小不",
+    "alternate_ids": "WithoutYou / 不能沒有你",
+    "team_now": null,
+    "team_history": [
+     [
+      "2025-02-14 ~ 2025-05-01",
+      "Al Qadsiah Esports"
+     ],
+     [
+      "2026-04-22 ~ 2026-06-30",
+      "ROC Esports"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 6
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=withoutyou",
+    "worlds_career": {
+     "gp": 18,
+     "avp": 3.22,
+     "top4": 0.833,
+     "win": 0.111
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 7,
+      "current": 0,
+      "from_event": "Enchanted Wilds: TFT Pro Circuit - APAC Elderwood Cup",
+      "to_event": "Enchanted Wilds: TFT Pro Circuit - APAC Elderwood Cup",
+      "from_date": "2026-09-17",
+      "to_date": "2026-09-17",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Enchanted Wilds: TFT Pro Circuit - APAC Elderwood Cup",
+      "to_event": "Enchanted Wilds: TFT Pro Circuit - APAC Elderwood Cup",
+      "from_date": "2026-09-17",
+      "to_date": "2026-09-17",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 33,
+      "current": 0,
+      "from_event": "Lore & Legends: APAC Regional Finals",
+      "to_event": "Space Gods: APAC Regional Finals",
+      "from_date": "2026-03-06",
+      "to_date": "2026-06-26",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "seoill",
+      "vs_id": "seoill",
+      "lobbies": 36,
+      "finished_above": 15,
+      "avp_with": 4.33,
+      "avp_without": 4.3
+     },
+     {
+      "vs": "JazLatte",
+      "vs_id": "Jazlatte",
+      "lobbies": 35,
+      "finished_above": 14,
+      "avp_with": 4.34,
+      "avp_without": 4.29
+     },
+     {
+      "vs": "steppy",
+      "vs_id": "steppy",
+      "lobbies": 33,
+      "finished_above": 19,
+      "avp_with": 4.06,
+      "avp_without": 4.37
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 3.87,
+     "gp": 54
+    },
+    "placement_mix_career": [
+     39,
+     42,
+     51,
+     43,
+     46,
+     37,
+     30,
+     26
+    ],
+    "flag": "Taiwan"
+   },
+   "qualification": {
+    "page_q": "APAC Elderwood Cup 冠军",
+    "page_track": "",
+    "official_or_best": "Elderwood Cup APAC Home Cup",
+    "liquipedia": [
+     {
+      "section": "TPC Elderwood Cup Winners",
+      "note": "APAC Cup",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "seoill": {
+   "name": "seoill",
+   "liquipedia": {
+    "page": "Seoill",
+    "url": "https://liquipedia.net/tft/Seoill",
+    "total_winnings_usd": 50150,
+    "total_winnings_text": "$50,150",
+    "nationality": "South Korea",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "박찬서",
+    "local_id": "서일",
+    "nicknames": "赛大姐",
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 22
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=seoill",
+    "worlds_career": {
+     "gp": 25,
+     "avp": 4.52,
+     "top4": 0.48,
+     "win": 0.12
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 6,
+      "current": 2,
+      "from_event": "Lore & Legends: TFT Pro Circuit - CN Bilgewater Cup",
+      "to_event": "Lore & Legends: TFT Pro Circuit - CN Bilgewater Cup",
+      "from_date": "2026-01-30",
+      "to_date": "2026-01-30",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 2,
+      "from_event": "Enchanted Wilds: TFT Pro Circuit - APAC Riftbeast Cup",
+      "to_event": "Enchanted Wilds: TFT Pro Circuit - APAC Elderwood Cup",
+      "from_date": "2026-09-04",
+      "to_date": "2026-09-17",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 33,
+      "current": 19,
+      "from_event": "Space Gods: TFT Pro Circuit - APAC Dark Star Cup",
+      "to_event": "Space Gods: APAC Regional Finals",
+      "from_date": "2026-05-22",
+      "to_date": "2026-06-26",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "title",
+      "vs_id": "title",
+      "lobbies": 53,
+      "finished_above": 31,
+      "avp_with": 3.79,
+      "avp_without": 3.99
+     },
+     {
+      "vs": "AQ1H",
+      "vs_id": "AQ1H",
+      "lobbies": 46,
+      "finished_above": 26,
+      "avp_with": 3.37,
+      "avp_without": 4.11
+     },
+     {
+      "vs": "JazLatte",
+      "vs_id": "Jazlatte",
+      "lobbies": 46,
+      "finished_above": 26,
+      "avp_with": 3.76,
+      "avp_without": 3.99
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 3.71,
+     "gp": 68
+    },
+    "placement_mix_career": [
+     59,
+     38,
+     31,
+     21,
+     27,
+     30,
+     31,
+     26
+    ],
+    "flag": "South Korea"
+   },
+   "qualification": {
+    "page_q": "APAC Riftbeast Cup 冠军",
+    "page_track": "",
+    "official_or_best": "Riftbeast Cup APAC",
+    "liquipedia": [
+     {
+      "section": "TPC Riftbeast Cup Winners",
+      "note": "APAC Cup",
+      "slot_passed_down": false
+     },
+     {
+      "section": "APAC Regional Finals Top 7",
+      "note": "{{Abbr/AQ}}",
+      "slot_passed_down": true
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": true
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Baizhi": {
+   "name": "Baizhi",
+   "liquipedia": {
+    "page": "Pale",
+    "url": "https://liquipedia.net/tft/Pale",
+    "total_winnings_usd": 149920,
+    "total_winnings_text": "$149,920",
+    "nationality": "China",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "江晨宇",
+    "local_id": "白纸",
+    "nicknames": null,
+    "alternate_ids": "baizhi",
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 7
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=白纸",
+    "worlds_career": null,
+    "streaks_tier1": null,
+    "most_met_crown_rivals": null,
+    "best_set": null,
+    "placement_mix_career": [
+     4,
+     3,
+     4,
+     3,
+     5,
+     2,
+     2,
+     1
+    ],
+    "flag": ""
+   },
+   "qualification": {
+    "page_q": "端游国服决赛 冠军",
+    "page_track": "TOC",
+    "official_or_best": "TOC 2026 秋季赛区决赛 第1（LP prize pool）",
+    "liquipedia": [
+     {
+      "section": "CN TOC Regional Finals Top 4",
+      "note": "TOC RF #1",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "ACE": {
+   "name": "Ace",
+   "liquipedia": {
+    "page": "Ace",
+    "url": "https://liquipedia.net/tft/Ace",
+    "total_winnings_usd": 205584,
+    "total_winnings_text": "$205,584",
+    "nationality": "China",
+    "born": "1998-12-23",
+    "age_on_crown_day1": 27,
+    "real_name": "黄华泰",
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [
+     [
+      "2024-06-06 ~ 2024-07-22",
+      "MBM"
+     ],
+     [
+      "2025-03-08 ~ 2025-04-24",
+      "Weibo Gaming"
+     ],
+     [
+      "2026-04-20 ~ 2026-06-01",
+      "EDward Gaming"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 4
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=ace",
+    "worlds_career": {
+     "gp": 12,
+     "avp": 4.75,
+     "top4": 0.333,
+     "win": 0.167
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 5,
+      "current": 0,
+      "from_event": "Lore & Legends: CN National Finals",
+      "to_event": "Lore & Legends: CN National Finals",
+      "from_date": "2026-02-26",
+      "to_date": "2026-02-26",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 1,
+      "current": 0,
+      "from_event": "Runeterra Reforged World Championship",
+      "to_event": "Runeterra Reforged World Championship",
+      "from_date": "2023-11-03",
+      "to_date": "2023-11-03",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 19,
+      "current": 5,
+      "from_event": "Runeterra Reforged World Championship",
+      "to_event": "Inkborn Fables: CN Summit Qualifier",
+      "from_date": "2023-11-03",
+      "to_date": "2024-06-14",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [],
+    "best_set": {
+     "set": 16,
+     "avp": 4.32,
+     "gp": 22
+    },
+    "placement_mix_career": [
+     11,
+     16,
+     13,
+     23,
+     14,
+     12,
+     21,
+     15
+    ],
+    "flag": "Vietnam"
+   },
+   "qualification": {
+    "page_q": "端游国服决赛 亚军",
+    "page_track": "TOC",
+    "official_or_best": "TOC 2026 秋季赛区决赛 第2（LP prize pool）",
+    "liquipedia": [
+     {
+      "section": "CN TOC Regional Finals Top 4",
+      "note": "TOC RF #2",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": "GanglyStats 的国籍字段写的是 Vietnam（错），Liquipedia 是中国、真名 黄华泰；页面用的 cn 没问题"
+  },
+  "Rue": {
+   "name": "Rue",
+   "liquipedia": {
+    "page": "Rue",
+    "url": "https://liquipedia.net/tft/Rue",
+    "total_winnings_usd": 14978,
+    "total_winnings_text": "$14,978",
+    "nationality": "China",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": "之忧参上",
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 30
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=之忧参上",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 3,
+      "current": 0,
+      "from_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 1,
+      "current": 0,
+      "from_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 24,
+      "current": 24,
+      "from_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": null,
+    "best_set": {
+     "set": 18,
+     "avp": 3.92,
+     "gp": 24
+    },
+    "placement_mix_career": [
+     3,
+     5,
+     3,
+     1,
+     7,
+     2,
+     3,
+     0
+    ],
+    "flag": ""
+   },
+   "qualification": {
+    "page_q": "端游国服决赛 季军",
+    "page_track": "TOC",
+    "official_or_best": "TOC 2026 秋季赛区决赛 第3（LP prize pool）",
+    "liquipedia": [
+     {
+      "section": "CN TOC Regional Finals Top 4",
+      "note": "TOC RF #3",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "Myyz": {
+   "name": "Myyz",
+   "liquipedia": {
+    "page": "Myyz",
+    "url": "https://liquipedia.net/tft/Myyz",
+    "total_winnings_usd": 8987,
+    "total_winnings_text": "$8,987",
+    "nationality": "China",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": "没有预兆",
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 35
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=没有预兆",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 3,
+      "current": 2,
+      "from_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 1,
+      "current": 0,
+      "from_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 7,
+      "current": 5,
+      "from_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN National Finals (Autumn Open)",
+      "from_date": "2026-10-23",
+      "to_date": "2026-10-23",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": null,
+    "best_set": {
+     "set": 18,
+     "avp": 4.08,
+     "gp": 24
+    },
+    "placement_mix_career": [
+     1,
+     7,
+     4,
+     2,
+     5,
+     0,
+     2,
+     3
+    ],
+    "flag": ""
+   },
+   "qualification": {
+    "page_q": "端游国服决赛 第4",
+    "page_track": "TOC",
+    "official_or_best": "TOC 2026 秋季赛区决赛 第4（LP prize pool）",
+    "liquipedia": [
+     {
+      "section": "CN TOC Regional Finals Top 4",
+      "note": "TOC RF #4",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "CSFX": {
+   "name": "Cangshan",
+   "liquipedia": {
+    "page": "CangShan",
+    "url": "https://liquipedia.net/tft/CangShan",
+    "total_winnings_usd": 50833,
+    "total_winnings_text": "$50,833",
+    "nationality": "China",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": "苍山负雪i",
+    "nicknames": null,
+    "alternate_ids": "CangShan",
+    "team_now": null,
+    "team_history": [
+     [
+      "2026-04-20 ~ 2026-05-14",
+      "Team Falcons"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 21
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=csfx",
+    "worlds_career": {
+     "gp": 8,
+     "avp": 5.88,
+     "top4": 0.25,
+     "win": 0.25
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 8,
+      "current": 1,
+      "from_event": "Lore & Legends: TFT Pro Circuit - CN Bilgewater Cup",
+      "to_event": "Lore & Legends: TFT Pro Circuit - CN Bilgewater Cup",
+      "from_date": "2026-01-30",
+      "to_date": "2026-01-30",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 1,
+      "from_event": "Lore & Legends: TFT Pro Circuit - CN Bilgewater Cup",
+      "to_event": "Lore & Legends: TFT Pro Circuit - CN Bilgewater Cup",
+      "from_date": "2026-01-30",
+      "to_date": "2026-01-30",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 24,
+      "current": 4,
+      "from_event": "Lore & Legends: TFT Pro Circuit - CN",
+      "to_event": "Lore & Legends: TFT Pro Circuit - CN Bilgewater Cup",
+      "from_date": "2026-01-16",
+      "to_date": "2026-01-30",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Iron Bog",
+      "vs_id": "Iron_Bog",
+      "lobbies": 17,
+      "finished_above": 11,
+      "avp_with": 3.53,
+      "avp_without": 4.06
+     }
+    ],
+    "best_set": {
+     "set": 15,
+     "avp": 3.85,
+     "gp": 27
+    },
+    "placement_mix_career": [
+     32,
+     30,
+     26,
+     20,
+     17,
+     26,
+     15,
+     21
+    ],
+    "flag": "China"
+   },
+   "qualification": {
+    "page_q": "CN TPC 冠军",
+    "page_track": "",
+    "official_or_best": "TOC TPC 冠军（LP: Enchanted Wilds/TFT Pro Circuit/CN/TOC 第1，¥100,000，qualified1=Crown）",
+    "liquipedia": [
+     {
+      "section": "CN TPC Winners",
+      "note": "TOC TPC",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": {
+     "q": "端游 TPC 冠军",
+     "tr": "TOC",
+     "why": "Liquipedia: TPC CN TOC（端游 TPC）第1；原写「CN TPC 冠军」不算错，只是不够具体"
+    },
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "HuiYuan": {
+   "name": "HuiYuan",
+   "liquipedia": {
+    "page": "HuiYuan",
+    "url": "https://liquipedia.net/tft/HuiYuan",
+    "total_winnings_usd": 59503,
+    "total_winnings_text": "$59,503",
+    "nationality": "China",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "延海鑫",
+    "local_id": "灰原的小迷弟",
+    "nicknames": "大拐",
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 19
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=huiyuan",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 8,
+      "current": 4,
+      "from_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "from_date": "2026-10-15",
+      "to_date": "2026-10-15",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 1,
+      "from_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "from_date": "2026-10-15",
+      "to_date": "2026-10-15",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 28,
+      "current": 17,
+      "from_event": "Lore & Legends: CN JOC National Finals",
+      "to_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "from_date": "2026-02-05",
+      "to_date": "2026-10-15",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "linshen",
+      "vs_id": "Linshen",
+      "lobbies": 21,
+      "finished_above": 15,
+      "avp_with": 3.71,
+      "avp_without": 4.65
+     },
+     {
+      "vs": "hexi",
+      "vs_id": "Hexi",
+      "lobbies": 16,
+      "finished_above": 8,
+      "avp_with": 3.94,
+      "avp_without": 4.54
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 3.58,
+     "gp": 31
+    },
+    "placement_mix_career": [
+     12,
+     10,
+     13,
+     9,
+     15,
+     13,
+     12,
+     8
+    ],
+    "flag": "China"
+   },
+   "qualification": {
+    "page_q": "金铲铲国服决赛 冠军",
+    "page_track": "JOC",
+    "official_or_best": "JOC 2026 秋季赛区决赛 前4（LP 名单在列；名次 LP 未录，GanglyStats/toc.qq.com 记第1）",
+    "liquipedia": [],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": "累计奖金偏低：JOC 2026 秋季赛区决赛（冠军 ¥1,000,000）的奖金 Liquipedia 截至 2026-11-12 还没录"
+  },
+  "HangHang": {
+   "name": "HangHang",
+   "liquipedia": {
+    "page": "HangHang",
+    "url": "https://liquipedia.net/tft/HangHang",
+    "total_winnings_usd": 37985,
+    "total_winnings_text": "$37,985",
+    "nationality": "China",
+    "born": "2001-01-25",
+    "age_on_crown_day1": 25,
+    "real_name": "林杭",
+    "local_id": "杭杭",
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 24
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=hanghang",
+    "worlds_career": {
+     "gp": 6,
+     "avp": 5.5,
+     "top4": 0.167,
+     "win": 0.0
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 7,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: CN JOC National Finals",
+      "to_event": "Magic n' Mayhem: CN JOC National Finals",
+      "from_date": "2024-10-19",
+      "to_date": "2024-10-19",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Magic n' Mayhem: CN JOC National Finals",
+      "to_event": "Magic n' Mayhem: CN JOC National Finals",
+      "from_date": "2024-10-19",
+      "to_date": "2024-10-19",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 17,
+      "current": 7,
+      "from_event": "Enchanted Wilds: TFT Pro Circuit - APAC Elderwood Cup",
+      "to_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "from_date": "2026-09-17",
+      "to_date": "2026-10-15",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "diaomei",
+      "vs_id": "diaomei",
+      "lobbies": 26,
+      "finished_above": 12,
+      "avp_with": 4.88,
+      "avp_without": 4.3
+     },
+     {
+      "vs": "Hanxing",
+      "vs_id": "Hanxing",
+      "lobbies": 17,
+      "finished_above": 8,
+      "avp_with": 5.18,
+      "avp_without": 4.3
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 3.77,
+     "gp": 35
+    },
+    "placement_mix_career": [
+     17,
+     23,
+     13,
+     11,
+     12,
+     12,
+     14,
+     23
+    ],
+    "flag": "China"
+   },
+   "qualification": {
+    "page_q": "金铲铲国服决赛 亚军",
+    "page_track": "JOC",
+    "official_or_best": "JOC 2026 秋季赛区决赛 前4（LP 名单在列；GanglyStats 记第2）",
+    "liquipedia": [],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": "累计奖金偏低：JOC 2026 秋季赛区决赛（亚军 ¥400,000）的奖金 Liquipedia 还没录"
+  },
+  "Linshen": {
+   "name": "linshen",
+   "liquipedia": {
+    "page": null,
+    "url": null,
+    "total_winnings_usd": null,
+    "total_winnings_text": null,
+    "nationality": null,
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": null,
+    "local_id": null,
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": null,
+    "note": "no Liquipedia player page (checked Linshen / LinShen / 林神 / Lin Shen)",
+    "winnings_rank_of_40": null
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=林神",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 5,
+      "current": 1,
+      "from_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "from_date": "2026-10-15",
+      "to_date": "2026-10-15",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 2,
+      "current": 0,
+      "from_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "from_date": "2026-10-15",
+      "to_date": "2026-10-15",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 16,
+      "current": 16,
+      "from_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "from_date": "2026-10-15",
+      "to_date": "2026-10-15",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": null,
+    "best_set": {
+     "set": 18,
+     "avp": 4.0,
+     "gp": 31
+    },
+    "placement_mix_career": [
+     6,
+     3,
+     4,
+     5,
+     6,
+     2,
+     2,
+     3
+    ],
+    "flag": ""
+   },
+   "qualification": {
+    "page_q": "金铲铲国服决赛 季军",
+    "page_track": "JOC",
+    "official_or_best": "JOC 2026 秋季赛区决赛 前4（LP 名单在列；GanglyStats 记第3）",
+    "liquipedia": [],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": "Liquipedia 没有他的选手页（Linshen / LinShen / 林神 / Lin Shen 都试过），所以没有奖金等数据；JOC 2026 秋季赛区决赛（季军 ¥100,000）奖金也还没录"
+  },
+  "Hexi": {
+   "name": "hexi",
+   "liquipedia": {
+    "page": "Hexi",
+    "url": "https://liquipedia.net/tft/Hexi",
+    "total_winnings_usd": null,
+    "total_winnings_text": null,
+    "nationality": "China",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "郑惟",
+    "local_id": "云鹤追",
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": null
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=鹤曦",
+    "worlds_career": null,
+    "streaks_tier1": {
+     "top4": {
+      "best": 8,
+      "current": 0,
+      "from_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "from_date": "2026-10-15",
+      "to_date": "2026-10-15",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 1,
+      "current": 0,
+      "from_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "from_date": "2026-10-15",
+      "to_date": "2026-10-15",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 27,
+      "current": 27,
+      "from_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "to_event": "Enchanted Wilds: CN JOC National Finals (Autumn Open)",
+      "from_date": "2026-10-15",
+      "to_date": "2026-10-15",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": null,
+    "best_set": {
+     "set": 18,
+     "avp": 3.97,
+     "gp": 31
+    },
+    "placement_mix_career": [
+     4,
+     4,
+     7,
+     5,
+     3,
+     2,
+     5,
+     1
+    ],
+    "flag": ""
+   },
+   "qualification": {
+    "page_q": "金铲铲国服决赛 第4",
+    "page_track": "JOC",
+    "official_or_best": "JOC 2026 秋季赛区决赛 前4（LP 名单在列；GanglyStats 记第4）",
+    "liquipedia": [],
+    "suggested_fix": null,
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": "中文 ID 不一致：页面用「鹤曦」（GanglyStats，来源 toc.qq.com 赛事数据），Liquipedia 写「云鹤追」（真名 郑惟）。可能改过名，Eric 定用哪个；累计奖金：Liquipedia 信息框没有奖金行（JOC 2026 秋季赛区决赛第 4 ¥60,000 还没录）"
+  },
+  "Hanxing": {
+   "name": "Hanxing",
+   "liquipedia": {
+    "page": "HanXing",
+    "url": "https://liquipedia.net/tft/HanXing",
+    "total_winnings_usd": 180428,
+    "total_winnings_text": "$180,428",
+    "nationality": "China",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "黄烨峰",
+    "local_id": "寒星",
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [
+     [
+      "2024-06-04 ~ 2024-08-15",
+      "Weibo Gaming"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 5
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=hanxing",
+    "worlds_career": {
+     "gp": 47,
+     "avp": 4.34,
+     "top4": 0.489,
+     "win": 0.191
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 6,
+      "current": 3,
+      "from_event": "Cyber City: CN JOC National Finals",
+      "to_event": "Cyber City: CN JOC National Finals",
+      "from_date": "2025-06-20",
+      "to_date": "2025-06-20",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 3,
+      "current": 0,
+      "from_event": "K.O. Coliseum: CN JOC National Finals",
+      "to_event": "K.O. Coliseum: CN JOC National Finals",
+      "from_date": "2025-10-18",
+      "to_date": "2025-10-18",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 24,
+      "current": 3,
+      "from_event": "Inkborn Fables: CN JOC National Finals",
+      "to_event": "Magic n' Mayhem: CN Crown Qualifier",
+      "from_date": "2024-06-22",
+      "to_date": "2024-11-05",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "diaomei",
+      "vs_id": "diaomei",
+      "lobbies": 33,
+      "finished_above": 15,
+      "avp_with": 4.36,
+      "avp_without": 4.3
+     },
+     {
+      "vs": "HangHang",
+      "vs_id": "HangHang",
+      "lobbies": 17,
+      "finished_above": 9,
+      "avp_with": 4.65,
+      "avp_without": 4.27
+     },
+     {
+      "vs": "Iron Bog",
+      "vs_id": "Iron_Bog",
+      "lobbies": 17,
+      "finished_above": 8,
+      "avp_with": 4.0,
+      "avp_without": 4.34
+     }
+    ],
+    "best_set": {
+     "set": 18,
+     "avp": 4.0,
+     "gp": 22
+    },
+    "placement_mix_career": [
+     35,
+     25,
+     28,
+     27,
+     23,
+     22,
+     25,
+     27
+    ],
+    "flag": "China"
+   },
+   "qualification": {
+    "page_q": "CN Elderwood Cup 冠军",
+    "page_track": "",
+    "official_or_best": "Elderwood Cup CN Home Cup",
+    "liquipedia": [
+     {
+      "section": "TPC Elderwood Cup Winners",
+      "note": "CN Cup",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": {
+     "tr": "JOC",
+     "optional": true,
+     "why": "晋级方式没错；但他打的是金铲铲赛道（Liquipedia: 金铲铲 TPC 第9-12；GanglyStats: 金铲铲国服决赛第52），标签可考虑补 JOC，Eric 定"
+    },
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  },
+  "diaomei": {
+   "name": "diaomei",
+   "liquipedia": {
+    "page": "Diaomei",
+    "url": "https://liquipedia.net/tft/Diaomei",
+    "total_winnings_usd": 234823,
+    "total_winnings_text": "$234,823",
+    "nationality": "China",
+    "born": null,
+    "age_on_crown_day1": null,
+    "real_name": "何炅昊",
+    "local_id": "糕手雕妹",
+    "nicknames": null,
+    "alternate_ids": null,
+    "team_now": null,
+    "team_history": [
+     [
+      "2026-04-20 ~ 2026-05-14",
+      "TLG"
+     ]
+    ],
+    "years_active": null,
+    "status": "Active",
+    "note": null,
+    "winnings_rank_of_40": 3
+   },
+   "ganglystats": {
+    "source": "https://ganglystats.com/player.html?id=diaomei",
+    "worlds_career": {
+     "gp": 18,
+     "avp": 5.06,
+     "top4": 0.389,
+     "win": 0.056
+    },
+    "streaks_tier1": {
+     "top4": {
+      "best": 9,
+      "current": 0,
+      "from_event": "Space Gods: TFT Pro Circuit - APAC Dark Star Cup",
+      "to_event": "Space Gods: TFT Pro Circuit - APAC Dark Star Cup",
+      "from_date": "2026-05-22",
+      "to_date": "2026-05-22",
+      "site_record": 20,
+      "site_record_holder": "dishsoap",
+      "site_top10_rank": null
+     },
+     "win": {
+      "best": 1,
+      "current": 0,
+      "from_event": "K.O. Coliseum: CN JOC National Finals",
+      "to_event": "K.O. Coliseum: CN JOC National Finals",
+      "from_date": "2025-10-18",
+      "to_date": "2025-10-18",
+      "site_record": 5,
+      "site_record_holder": "asta1",
+      "site_top10_rank": null
+     },
+     "no8": {
+      "best": 31,
+      "current": 0,
+      "from_event": "Space Gods: CN JOC National Finals (Summer Open)",
+      "to_event": "Enchanted Wilds: TFT Pro Circuit - CN Elderwood Cup",
+      "from_date": "2026-06-11",
+      "to_date": "2026-09-17",
+      "site_record": 76,
+      "site_record_holder": "dicob",
+      "site_top10_rank": null
+     }
+    },
+    "most_met_crown_rivals": [
+     {
+      "vs": "Hanxing",
+      "vs_id": "Hanxing",
+      "lobbies": 33,
+      "finished_above": 18,
+      "avp_with": 3.7,
+      "avp_without": 4.47
+     },
+     {
+      "vs": "HangHang",
+      "vs_id": "HangHang",
+      "lobbies": 26,
+      "finished_above": 14,
+      "avp_with": 4.27,
+      "avp_without": 4.24
+     }
+    ],
+    "best_set": {
+     "set": 16,
+     "avp": 4.12,
+     "gp": 34
+    },
+    "placement_mix_career": [
+     14,
+     27,
+     13,
+     15,
+     12,
+     18,
+     20,
+     12
+    ],
+    "flag": ""
+   },
+   "qualification": {
+    "page_q": "CN 赛区代表",
+    "page_track": "",
+    "official_or_best": "JOC TPC 冠军（LP: Enchanted Wilds/TFT Pro Circuit/CN/JOC 第1，¥100,000，qualified1=Crown；赛期 2026-09-04~13）",
+    "liquipedia": [
+     {
+      "section": "CN TPC Winners",
+      "note": "JOC TPC",
+      "slot_passed_down": false
+     }
+    ],
+    "suggested_fix": {
+     "q": "JOC TPC 冠军",
+     "tr": "JOC",
+     "why": "Liquipedia: 赢下 Enchanted Wilds TPC CN JOC（金铲铲 TPC，2026-09-04~13）拿世界赛名额；页面原写「CN 赛区代表」"
+    },
+    "double_qualified": false
+   },
+   "worlds_check": [],
+   "notes": null
+  }
+ }
+}
